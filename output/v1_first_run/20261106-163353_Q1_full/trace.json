@@ -1,0 +1,435 @@
+{
+ "run_id": "20261106-163353_Q1_full",
+ "qid": "Q1",
+ "question": "크로스핏은 누가, 언제 설립했나?",
+ "variant": "full",
+ "variant_label": "기본 (모든 장치 ON)",
+ "settings": {
+  "model": "gpt-5-mini",
+  "context_window": 400000,
+  "reasoning_effort": "low",
+  "total_reads": 40,
+  "recheck_reserve": 6,
+  "recheck_reads_per_section": 3,
+  "recheck_rounds": 2,
+  "page_chars": 12000,
+  "max_sections": 6,
+  "min_section_budget": 2,
+  "tell_peers": true,
+  "recheck": true,
+  "single_agent": false,
+  "practice": false,
+  "max_workers": 6,
+  "extra": {}
+ },
+ "corpus": {
+  "name": "corpus",
+  "docs": 338,
+  "chars": 2065408
+ },
+ "events": [
+  {
+   "t": 0.0,
+   "who": "시작",
+   "text": "기본 (모든 장치 ON) · 모델 gpt-5-mini"
+  },
+  {
+   "t": 6.2,
+   "who": "코디네이터",
+   "text": "목차 시도 1: 절 1개, 오류 0건, 경고 0건"
+  },
+  {
+   "t": 6.2,
+   "who": "코디네이터",
+   "text": "리서처 1명 동시 파견 (남의 구역 알림 ON)"
+  },
+  {
+   "t": 8.4,
+   "who": "리서처 S1",
+   "text": "읽기 1/2: crossfit 1쪽 (경로: start)"
+  },
+  {
+   "t": 16.2,
+   "who": "리서처 S1",
+   "text": "제출(라운드 1): 254자, 인용 문서 1건, 신고 sufficient"
+  },
+  {
+   "t": 22.4,
+   "who": "코디네이터",
+   "text": "종합: 서론·연결 문장·맺음말 작성"
+  },
+  {
+   "t": 22.4,
+   "who": "측정",
+   "text": "경보 없음"
+  }
+ ],
+ "sections": {
+  "S1": {
+   "meta": {
+    "id": "S1",
+    "title": "설립자와 설립연도",
+    "role": "크로스핏을 누가 설립했으며 언제 설립했는지 한 문장으로 답한다.",
+    "scope_in": "CrossFit의 창립자(개인·공동창업자 명칭)와 설립연도 및 간단한 창립 관련 사실(예: 공동창업 여부).",
+    "scope_out": "CrossFit의 역사 전개, 조직 구조, CrossFit Games, 사업 모델, 논란 등 설립 이후의 상세 내용은 다루지 않는다.",
+    "start_docs": [
+     "crossfit"
+    ],
+    "budget": 2
+   },
+   "agent": "리서처 S1",
+   "reads": {
+    "budget": 2,
+    "used": 1,
+    "log": [
+     {
+      "n": 1,
+      "doc": "crossfit",
+      "part": 1,
+      "parts": 3,
+      "via": "start",
+      "round": 1,
+      "chars": 12000
+     }
+    ],
+    "docs_read": [
+     "crossfit"
+    ],
+    "blocked": [],
+    "unknown": [],
+    "over_budget": 0
+   },
+   "drafts": [
+    {
+     "round": 1,
+     "markdown": "크로스핏(CrossFit)은 전 체력 요소를 결합한 운동 방식으로, 그 방법을 고안한 전 체조선수 그렉 글래스먼(Greg Glassman)과 로렌 제나이(Lauren Jenai)가 공동으로 2000년에 CrossFit, Inc.로 법인을 설립하여 창립했으며, 글래스먼이 1996년경 ‘Cross‑Fit’이라는 개념을 처음 고안했고 이후 2001년에 캘리포니아 산타크루즈에 첫 체육관을 열어 온라인에 일일 운동을 게시하면서 확산되었다[d:crossfit].",
+     "status": "sufficient",
+     "missing": "",
+     "handoffs": [],
+     "cited": [
+      "crossfit"
+     ],
+     "unread_cited": [],
+     "unknown_cited": [],
+     "chars": 254,
+     "reads_used": 1
+    }
+   ],
+   "merges": [],
+   "final": {
+    "round": 1,
+    "markdown": "크로스핏(CrossFit)은 전 체력 요소를 결합한 운동 방식으로, 그 방법을 고안한 전 체조선수 그렉 글래스먼(Greg Glassman)과 로렌 제나이(Lauren Jenai)가 공동으로 2000년에 CrossFit, Inc.로 법인을 설립하여 창립했으며, 글래스먼이 1996년경 ‘Cross‑Fit’이라는 개념을 처음 고안했고 이후 2001년에 캘리포니아 산타크루즈에 첫 체육관을 열어 온라인에 일일 운동을 게시하면서 확산되었다[d:crossfit].",
+    "status": "sufficient",
+    "missing": "",
+    "handoffs": [],
+    "cited": [
+     "crossfit"
+    ],
+    "unread_cited": [],
+    "unknown_cited": [],
+    "chars": 254,
+    "reads_used": 1
+   },
+   "submit_rejections": 0
+  }
+ },
+ "started_at": "2026-11-06T16:33:53",
+ "plan": {
+  "rationale": "질문은 단순히 설립자와 설립연도(누가, 언제)만 묻고 있어 한 절로 충분히 답할 수 있다. CrossFit 문서의 첫 문장에 직접 답이 있으므로 시작 자료로 한 건만 지정하고 최소 읽기 예산을 배정했다.",
+  "sections": [
+   {
+    "id": "S1",
+    "title": "설립자와 설립연도",
+    "role": "크로스핏을 누가 설립했으며 언제 설립했는지 한 문장으로 답한다.",
+    "scope_in": "CrossFit의 창립자(개인·공동창업자 명칭)와 설립연도 및 간단한 창립 관련 사실(예: 공동창업 여부).",
+    "scope_out": "CrossFit의 역사 전개, 조직 구조, CrossFit Games, 사업 모델, 논란 등 설립 이후의 상세 내용은 다루지 않는다.",
+    "start_docs": [
+     "crossfit"
+    ],
+    "budget": 2
+   }
+  ],
+  "warnings": []
+ },
+ "plan_source": "new",
+ "plan_attempts": [
+  {
+   "attempt": 1,
+   "plan": {
+    "rationale": "질문은 단순히 설립자와 설립연도(누가, 언제)만 묻고 있어 한 절로 충분히 답할 수 있다. CrossFit 문서의 첫 문장에 직접 답이 있으므로 시작 자료로 한 건만 지정하고 최소 읽기 예산을 배정했다.",
+    "sections": [
+     {
+      "id": "S1",
+      "title": "설립자와 설립연도",
+      "role": "크로스핏을 누가 설립했으며 언제 설립했는지 한 문장으로 답한다.",
+      "scope_in": "CrossFit의 창립자(개인·공동창업자 명칭)와 설립연도 및 간단한 창립 관련 사실(예: 공동창업 여부).",
+      "scope_out": "CrossFit의 역사 전개, 조직 구조, CrossFit Games, 사업 모델, 논란 등 설립 이후의 상세 내용은 다루지 않는다.",
+      "start_docs": [
+       "crossfit"
+      ],
+      "budget": 2
+     }
+    ],
+    "warnings": []
+   },
+   "errors": [],
+   "warnings": []
+  }
+ ],
+ "elapsed_sec": 22.4,
+ "recheck": {
+  "enabled": true,
+  "rounds": [
+   {
+    "round": 1,
+    "todo": [],
+    "given": {},
+    "reason": "부족 신고 없음"
+   }
+  ],
+  "reserve_left": 6
+ },
+ "report": {
+  "markdown": "# 크로스핏의 설립자와 설립연도\n\n질문은 크로스핏을 누가 언제 설립했는지에 대한 것이다. 이 보고서는 한 절로 구성되어 설립자 및 설립연도와 관련된 핵심 사실만 간결하게 제시한다. 제공된 절 원고를 그대로 연결해 답을 정리한다.\n\n## 1. 설립자와 설립연도\n\n*이제 크로스핏의 창립자와 설립연도에 대해 정리된 내용을 제시한다.*\n\n크로스핏(CrossFit)은 전 체력 요소를 결합한 운동 방식으로, 그 방법을 고안한 전 체조선수 그렉 글래스먼(Greg Glassman)과 로렌 제나이(Lauren Jenai)가 공동으로 2000년에 CrossFit, Inc.로 법인을 설립하여 창립했으며, 글래스먼이 1996년경 ‘Cross‑Fit’이라는 개념을 처음 고안했고 이후 2001년에 캘리포니아 산타크루즈에 첫 체육관을 열어 온라인에 일일 운동을 게시하면서 확산되었다[1].\n\n## 맺음말\n\n크로스핏은 그렉 글래스먼(Greg Glassman)과 로렌 제나이(Lauren Jenai)가 공동으로 2000년에 CrossFit, Inc.를 설립하면서 창립되었다[1]. 글래스먼은 1996년경에 'Cross‑Fit'이라는 개념을 처음 고안했고[1], 이후 2001년에 캘리포니아 산타크루즈에 첫 체육관을 열고 온라인에 일일 운동을 게시하면서 방법이 확산되었다[1]. 이 보고서는 설립자와 설립연도만을 다루었으며, 창립 이후의 역사나 조직 구조 등은 포함하지 않는다.\n\n## 참고문헌\n[1] CrossFit — English Wikipedia. https://en.wikipedia.org/wiki/CrossFit  (읽은 쪽: S1 / 인용한 절: S1)\n",
+  "markdown_d": "# 크로스핏의 설립자와 설립연도\n\n질문은 크로스핏을 누가 언제 설립했는지에 대한 것이다. 이 보고서는 한 절로 구성되어 설립자 및 설립연도와 관련된 핵심 사실만 간결하게 제시한다. 제공된 절 원고를 그대로 연결해 답을 정리한다.\n\n## 1. 설립자와 설립연도\n\n*이제 크로스핏의 창립자와 설립연도에 대해 정리된 내용을 제시한다.*\n\n크로스핏(CrossFit)은 전 체력 요소를 결합한 운동 방식으로, 그 방법을 고안한 전 체조선수 그렉 글래스먼(Greg Glassman)과 로렌 제나이(Lauren Jenai)가 공동으로 2000년에 CrossFit, Inc.로 법인을 설립하여 창립했으며, 글래스먼이 1996년경 ‘Cross‑Fit’이라는 개념을 처음 고안했고 이후 2001년에 캘리포니아 산타크루즈에 첫 체육관을 열어 온라인에 일일 운동을 게시하면서 확산되었다[d:crossfit].\n\n## 맺음말\n\n크로스핏은 그렉 글래스먼(Greg Glassman)과 로렌 제나이(Lauren Jenai)가 공동으로 2000년에 CrossFit, Inc.를 설립하면서 창립되었다[d:crossfit]. 글래스먼은 1996년경에 'Cross‑Fit'이라는 개념을 처음 고안했고[d:crossfit], 이후 2001년에 캘리포니아 산타크루즈에 첫 체육관을 열고 온라인에 일일 운동을 게시하면서 방법이 확산되었다[d:crossfit]. 이 보고서는 설립자와 설립연도만을 다루었으며, 창립 이후의 역사나 조직 구조 등은 포함하지 않는다.",
+  "conclusion_d": "크로스핏은 그렉 글래스먼(Greg Glassman)과 로렌 제나이(Lauren Jenai)가 공동으로 2000년에 CrossFit, Inc.를 설립하면서 창립되었다[d:crossfit]. 글래스먼은 1996년경에 'Cross‑Fit'이라는 개념을 처음 고안했고[d:crossfit], 이후 2001년에 캘리포니아 산타크루즈에 첫 체육관을 열고 온라인에 일일 운동을 게시하면서 방법이 확산되었다[d:crossfit]. 이 보고서는 설립자와 설립연도만을 다루었으며, 창립 이후의 역사나 조직 구조 등은 포함하지 않는다.",
+  "numbering": {
+   "crossfit": 1
+  },
+  "frame": {
+   "title": "크로스핏의 설립자와 설립연도",
+   "intro": "질문은 크로스핏을 누가 언제 설립했는지에 대한 것이다. 이 보고서는 한 절로 구성되어 설립자 및 설립연도와 관련된 핵심 사실만 간결하게 제시한다. 제공된 절 원고를 그대로 연결해 답을 정리한다.",
+   "transitions": [
+    {
+     "section_id": "S1",
+     "sentence": "이제 크로스핏의 창립자와 설립연도에 대해 정리된 내용을 제시한다."
+    }
+   ],
+   "conclusion": "크로스핏은 그렉 글래스먼(Greg Glassman)과 로렌 제나이(Lauren Jenai)가 공동으로 2000년에 CrossFit, Inc.를 설립하면서 창립되었다[d:crossfit]. 글래스먼은 1996년경에 'Cross‑Fit'이라는 개념을 처음 고안했고[d:crossfit], 이후 2001년에 캘리포니아 산타크루즈에 첫 체육관을 열고 온라인에 일일 운동을 게시하면서 방법이 확산되었다[d:crossfit]. 이 보고서는 설립자와 설립연도만을 다루었으며, 창립 이후의 역사나 조직 구조 등은 포함하지 않는다."
+  }
+ },
+ "meters": {
+  "리서처 S1": {
+   "seen_chars": 14303,
+   "written_chars": 348,
+   "prompt_tokens": 4693,
+   "completion_tokens": 714,
+   "calls": 2
+  },
+  "코디네이터": {
+   "seen_chars": 98994,
+   "written_chars": 945,
+   "prompt_tokens": 56749,
+   "completion_tokens": 894,
+   "calls": 2
+  }
+ },
+ "submit_rejections": 0,
+ "metrics": {
+  "rows": [
+   {
+    "key": "budget_use",
+    "label": "예산 소진율",
+    "kind": "signal",
+    "device": "예산 배분 · 대조군 공정성",
+    "desc": "전체 읽기 예산 중 실제로 읽은 비율",
+    "value": 0.025
+   },
+   {
+    "key": "unique_docs_read",
+    "label": "읽은 문서 수",
+    "kind": "signal",
+    "device": "탐색 (시작 자료·links)",
+    "desc": "한 번 이상 연 서로 다른 문서 수",
+    "value": 1
+   },
+   {
+    "key": "link_hop_share",
+    "label": "링크로 찾아간 비율",
+    "kind": "signal",
+    "device": "탐색 (links)",
+    "desc": "읽은 문서 중 시작 자료가 아니라 링크를 따라가 연 문서의 비율",
+    "value": 0.0
+   },
+   {
+    "key": "read_overlap",
+    "label": "절 간 읽기 겹침",
+    "kind": "signal",
+    "device": "남의 구역 알림 · 목차 분할",
+    "desc": "절끼리 읽은 문서 집합이 겹치는 정도(쌍별 자카드 평균, 낮을수록 잘 갈림)",
+    "value": null
+   },
+   {
+    "key": "cited_docs",
+    "label": "인용된 문서 수",
+    "kind": "signal",
+    "device": "원고 규칙 (리서처)",
+    "desc": "최종 보고서에 인용된 서로 다른 문서 수",
+    "value": 1
+   },
+   {
+    "key": "cite_density",
+    "label": "인용 밀도",
+    "kind": "signal",
+    "device": "원고 규칙 (리서처)",
+    "desc": "본문 1,000자당 인용 표시 수",
+    "value": 5.42
+   },
+   {
+    "key": "read_uncited_share",
+    "label": "읽고 안 쓴 비율",
+    "kind": "signal",
+    "device": "예산 효율",
+    "desc": "읽었지만 어디에도 인용하지 않은 문서의 비율",
+    "value": 0.0
+   },
+   {
+    "key": "year_grounding",
+    "label": "연도 원문 일치율",
+    "kind": "signal",
+    "device": "원문 대조 (리서처 정확성)",
+    "desc": "인용 붙은 문장의 연도 중 인용 문서 원문에 실제로 나오는 비율",
+    "value": 1.0
+   },
+   {
+    "key": "coordinator_seen_ratio",
+    "label": "코디네이터가 본 비율",
+    "kind": "signal",
+    "device": "격리 (분업 구조)",
+    "desc": "코디네이터가 받은 글자 수 ÷ 자료 전체 글자 수",
+    "value": 0.0479
+   },
+   {
+    "key": "max_agent_seen_ratio",
+    "label": "최대 에이전트가 본 비율",
+    "kind": "signal",
+    "device": "격리 (분업 구조)",
+    "desc": "가장 많이 받은 에이전트의 글자 수 ÷ 자료 전체 글자 수",
+    "value": 0.0069
+   },
+   {
+    "key": "insufficient_first",
+    "label": "1차 부족 신고",
+    "kind": "signal",
+    "device": "점검·재파견",
+    "desc": "1차 원고에서 스스로 '부족'이라 신고한 절 수",
+    "value": 0
+   },
+   {
+    "key": "resolved_after_recheck",
+    "label": "재파견 후 해결",
+    "kind": "signal",
+    "device": "점검·재파견",
+    "desc": "재파견 뒤 '충분'으로 바뀐 절 수",
+    "value": 0
+   },
+   {
+    "key": "plan_retries",
+    "label": "목차 재작성",
+    "kind": "signal",
+    "device": "목차 검사 (코드)",
+    "desc": "코디네이터 목차가 코드 검사에 걸려 다시 짠 횟수",
+    "value": 0
+   },
+   {
+    "key": "submit_rejections",
+    "label": "제출 거절",
+    "kind": "signal",
+    "device": "원고 검사 (코드)",
+    "desc": "인용 없음·안 읽은 문서 인용 등으로 코드가 제출을 돌려보낸 횟수",
+    "value": 0
+   },
+   {
+    "key": "unread_citations",
+    "label": "안 읽은 문서 인용",
+    "kind": "alarm",
+    "device": "원고 규칙 (리서처)",
+    "desc": "쓴 에이전트가 읽지 않은 문서를 인용한 수",
+    "value": 0
+   },
+   {
+    "key": "unknown_ids",
+    "label": "없는 문서 ID",
+    "kind": "alarm",
+    "device": "목차 검사 · 원고 검사",
+    "desc": "최종 목차·보고서에 자료에 없는 문서 ID가 남은 수",
+    "value": 0
+   },
+   {
+    "key": "budget_overrun",
+    "label": "예산 초과",
+    "kind": "alarm",
+    "device": "예산 장치",
+    "desc": "배정 예산보다 많이 읽은 횟수",
+    "value": 0
+   },
+   {
+    "key": "lost_citations",
+    "label": "종합 중 잃은 인용",
+    "kind": "alarm",
+    "device": "종합 (코디네이터)",
+    "desc": "절 원고에 있던 인용 문서가 최종본에서 사라진 수",
+    "value": 0
+   },
+   {
+    "key": "synthesis_new_citations",
+    "label": "종합이 만든 새 인용",
+    "kind": "alarm",
+    "device": "종합 (코디네이터)",
+    "desc": "맺음말이 어느 절 원고에도 없던 문서를 인용한 수",
+    "value": 0
+   },
+   {
+    "key": "empty_sections",
+    "label": "빈 절",
+    "kind": "alarm",
+    "device": "리서처 · 점검",
+    "desc": "인용이 하나도 없거나 제출에 실패한 절 수",
+    "value": 0
+   },
+   {
+    "key": "control_underuse",
+    "label": "대조군 예산 미소진",
+    "kind": "alarm",
+    "device": "비교 공정성",
+    "desc": "대조군이 예산의 90% 미만을 쓰고 멈췄으면 1 (상대를 묶어 둔 비교)",
+    "value": null
+   }
+  ],
+  "values": {
+   "budget_use": 0.025,
+   "unique_docs_read": 1,
+   "link_hop_share": 0.0,
+   "read_overlap": null,
+   "cited_docs": 1,
+   "cite_density": 5.42,
+   "read_uncited_share": 0.0,
+   "year_grounding": 1.0,
+   "coordinator_seen_ratio": 0.0479,
+   "max_agent_seen_ratio": 0.0069,
+   "insufficient_first": 0,
+   "resolved_after_recheck": 0,
+   "plan_retries": 0,
+   "submit_rejections": 0,
+   "unread_citations": 0,
+   "unknown_ids": 0,
+   "budget_overrun": 0,
+   "lost_citations": 0,
+   "synthesis_new_citations": 0,
+   "empty_sections": 0,
+   "control_underuse": null
+  },
+  "raw": {
+   "reads_used": 1,
+   "total_budget": 40,
+   "corpus_chars": 2065408,
+   "coordinator_seen_chars": 98994,
+   "agent_seen_chars": {
+    "리서처 S1": 14303
+   },
+   "years_checked": 6,
+   "years_found": 6
+  },
+  "alarms_fired": []
+ }
+}

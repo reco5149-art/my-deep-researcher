@@ -1,0 +1,1610 @@
+{
+ "qid": "Q4",
+ "question": "크로스핏은 어떻게 탄생해 어떤 과정을 거쳐 지금에 이르렀나?",
+ "variant": "no_links",
+ "variant_label": "links 탐색 OFF",
+ "settings": {
+  "model": "gpt-5-mini",
+  "context_window": 400000,
+  "reasoning_effort": "low",
+  "total_reads": 40,
+  "recheck_reserve": 6,
+  "min_section_budget": 2,
+  "page_chars": 12000,
+  "min_sections": 1,
+  "max_sections": 6,
+  "recheck_rounds": 2,
+  "recheck_reads_per_section": 3,
+  "researcher_min_use": 0.6,
+  "researcher_max_rejections": 2,
+  "single_min_use": 0.9,
+  "single_max_rejections": 6,
+  "tell_peers": true,
+  "recheck": true,
+  "use_links": false,
+  "single_agent": false,
+  "practice": false,
+  "max_workers": 6,
+  "extra": {}
+ },
+ "corpus": {
+  "name": "crossfit-wikipedia",
+  "docs": 338,
+  "chars": 2065408
+ },
+ "run_id": "20261106-165715_Q4_no_links",
+ "events": [
+  {
+   "t": 0.0,
+   "who": "시작",
+   "text": "links 탐색 OFF · 모델 gpt-5-mini"
+  },
+  {
+   "t": 0.0,
+   "who": "코디네이터",
+   "text": "같은 질문의 기본 실행(20261106-165417_Q4_full) 목차를 그대로 쓴다"
+  },
+  {
+   "t": 0.0,
+   "who": "코디네이터",
+   "text": "리서처 6명 동시 파견 (남의 구역 알림 ON, links 탐색 OFF)"
+  },
+  {
+   "t": 1.8,
+   "who": "리서처 S4",
+   "text": "읽기 1/5: rhabdomyolysis 1쪽 (경로: start)"
+  },
+  {
+   "t": 2.3,
+   "who": "리서처 S5",
+   "text": "읽기 1/5: hyrox 1쪽 (경로: start)"
+  },
+  {
+   "t": 2.5,
+   "who": "리서처 S6",
+   "text": "읽기 1/5: rich_froning_jr 1쪽 (경로: start)"
+  },
+  {
+   "t": 3.1,
+   "who": "리서처 S2",
+   "text": "읽기 1/6: reebok 1쪽 (경로: start)"
+  },
+  {
+   "t": 3.1,
+   "who": "리서처 S2",
+   "text": "읽기 2/6: reebok 2쪽 (경로: start)"
+  },
+  {
+   "t": 3.1,
+   "who": "리서처 S2",
+   "text": "읽기 3/6: reebok 3쪽 (경로: start)"
+  },
+  {
+   "t": 3.1,
+   "who": "리서처 S2",
+   "text": "읽기 4/6: reebok 4쪽 (경로: start)"
+  },
+  {
+   "t": 3.1,
+   "who": "리서처 S2",
+   "text": "읽기 5/6: nobull 1쪽 (경로: start)"
+  },
+  {
+   "t": 3.1,
+   "who": "리서처 S2",
+   "text": "읽기 6/6: rogue_fitness 1쪽 (경로: start)"
+  },
+  {
+   "t": 3.2,
+   "who": "리서처 S5",
+   "text": "읽기 2/5: hyrox 2쪽 (경로: start)"
+  },
+  {
+   "t": 3.7,
+   "who": "리서처 S3",
+   "text": "읽기 1/6: crossfit_games 1쪽 (경로: start)"
+  },
+  {
+   "t": 3.7,
+   "who": "리서처 S3",
+   "text": "읽기 2/6: crossfit_games 2쪽 (경로: start)"
+  },
+  {
+   "t": 3.7,
+   "who": "리서처 S3",
+   "text": "읽기 3/6: crossfit_games 3쪽 (경로: start)"
+  },
+  {
+   "t": 3.7,
+   "who": "리서처 S3",
+   "text": "읽기 4/6: 2007_crossfit_games 1쪽 (경로: start)"
+  },
+  {
+   "t": 3.7,
+   "who": "리서처 S3",
+   "text": "읽기 5/6: 2010_crossfit_games 1쪽 (경로: start)"
+  },
+  {
+   "t": 3.8,
+   "who": "리서처 S6",
+   "text": "읽기 2/5: crossfit_mayhem 1쪽 (경로: start)"
+  },
+  {
+   "t": 4.4,
+   "who": "리서처 S1",
+   "text": "읽기 1/7: crossfit 1쪽 (경로: start)"
+  },
+  {
+   "t": 4.4,
+   "who": "리서처 S1",
+   "text": "읽기 2/7: crossfit 2쪽 (경로: start)"
+  },
+  {
+   "t": 4.4,
+   "who": "리서처 S1",
+   "text": "읽기 3/7: crossfit 3쪽 (경로: start)"
+  },
+  {
+   "t": 4.4,
+   "who": "리서처 S1",
+   "text": "읽기 4/7: functional_training 1쪽 (경로: start)"
+  },
+  {
+   "t": 4.4,
+   "who": "리서처 S1",
+   "text": "읽기 5/7: high_intensity_interval_training 1쪽 (경로: start)"
+  },
+  {
+   "t": 4.4,
+   "who": "리서처 S1",
+   "text": "읽기 6/7: high_intensity_interval_training 2쪽 (경로: start)"
+  },
+  {
+   "t": 5.1,
+   "who": "리서처 S4",
+   "text": "읽기 2/5: rhabdomyolysis 2쪽 (경로: start)"
+  },
+  {
+   "t": 5.6,
+   "who": "리서처 S5",
+   "text": "읽기 3/5: f45_training 1쪽 (경로: start)"
+  },
+  {
+   "t": 7.1,
+   "who": "리서처 S4",
+   "text": "읽기 3/5: overtraining 1쪽 (경로: start)"
+  },
+  {
+   "t": 8.2,
+   "who": "리서처 S5",
+   "text": "읽기 4/5: orangetheory_fitness 1쪽 (경로: start)"
+  },
+  {
+   "t": 13.7,
+   "who": "리서처 S2",
+   "text": "제출(라운드 1): 1379자, 인용 문서 3건, 읽기 6/6, 신고 insufficient"
+  },
+  {
+   "t": 16.3,
+   "who": "리서처 S4",
+   "text": "제출(라운드 1): 660자, 인용 문서 2건, 읽기 3/5, 신고 sufficient"
+  },
+  {
+   "t": 17.2,
+   "who": "리서처 S6",
+   "text": "제출 관문: 예산 2/5회만 써서 돌려보냄"
+  },
+  {
+   "t": 17.7,
+   "who": "리서처 S3",
+   "text": "제출(라운드 1): 1126자, 인용 문서 3건, 읽기 5/6, 신고 sufficient"
+  },
+  {
+   "t": 20.0,
+   "who": "리서처 S1",
+   "text": "제출(라운드 1): 915자, 인용 문서 3건, 읽기 6/7, 신고 sufficient"
+  },
+  {
+   "t": 21.2,
+   "who": "리서처 S6",
+   "text": "읽기 3/5: froning 1쪽 (경로: search)"
+  },
+  {
+   "t": 25.7,
+   "who": "리서처 S5",
+   "text": "제출(라운드 1): 1140자, 인용 문서 3건, 읽기 4/5, 신고 sufficient"
+  },
+  {
+   "t": 32.2,
+   "who": "리서처 S6",
+   "text": "제출(라운드 1): 832자, 인용 문서 2건, 읽기 3/5, 신고 sufficient"
+  },
+  {
+   "t": 32.2,
+   "who": "코디네이터",
+   "text": "점검 1바퀴째: 부족 신고 ['S2'] → 재파견 {'S2': 3}"
+  },
+  {
+   "t": 35.8,
+   "who": "리서처 S2",
+   "text": "읽기 7/9: crossfit_games 1쪽 (경로: search)"
+  },
+  {
+   "t": 44.8,
+   "who": "리서처 S2",
+   "text": "제출(라운드 2): 1071자, 인용 문서 4건, 읽기 7/9, 신고 insufficient"
+  },
+  {
+   "t": 44.8,
+   "who": "코디네이터",
+   "text": "S2 두 번째 원고 처리: 교체 — 이전 인용 3건을 모두 유지하고 1건을 더함 → 교체"
+  },
+  {
+   "t": 44.8,
+   "who": "코디네이터",
+   "text": "점검 2바퀴째: 부족 신고 ['S2'] → 재파견 {'S2': 3}"
+  },
+  {
+   "t": 55.1,
+   "who": "리서처 S2",
+   "text": "제출(라운드 3): 848자, 인용 문서 4건, 읽기 7/12, 신고 insufficient"
+  },
+  {
+   "t": 55.1,
+   "who": "코디네이터",
+   "text": "S2 두 번째 원고 처리: 교체 — 이전 인용 4건을 모두 유지하고 0건을 더함 → 교체"
+  },
+  {
+   "t": 66.7,
+   "who": "코디네이터",
+   "text": "종합: 서론·연결 문장·맺음말 작성"
+  },
+  {
+   "t": 66.7,
+   "who": "측정",
+   "text": "경보 없음"
+  }
+ ],
+ "sections": {
+  "S1": {
+   "meta": {
+    "id": "S1",
+    "role_name": "기원·방법론",
+    "title": "크로스핏의 창립과 운동 방법론(정의·철학·운동 기원)",
+    "role": "role: 크로스핏은 누가, 언제, 어떤 철학과 운동적 뿌리(예: HIIT·체조·역도 등)를 바탕으로 만들었나?",
+    "scope_in": "Greg Glassman·Lauren Jenai에 의한 창립, CrossFit의 정의·철학, 훈련 방식(상시 변화·기능적 움직임·고강도), HIIT·기능적 트레이닝·체조·역도·기본 운동(버피·풀업 등)과의 연결 고리.",
+    "scope_out": "대회 운영 세부(오픈·게임즈 연도별 이벤트), 사업적 제휴·라이선스(스폰서·Reebok 등), 선수 개별 전기(개별 선수는 인물 추적 파트 담당).",
+    "start_docs": [
+     "crossfit",
+     "functional_training",
+     "high_intensity_interval_training"
+    ],
+    "budget": 7
+   },
+   "agent": "리서처 S1",
+   "reads": {
+    "budget": 7,
+    "used": 6,
+    "log": [
+     {
+      "n": 1,
+      "doc": "crossfit",
+      "part": 1,
+      "parts": 3,
+      "via": "start",
+      "round": 1,
+      "chars": 12000
+     },
+     {
+      "n": 2,
+      "doc": "crossfit",
+      "part": 2,
+      "parts": 3,
+      "via": "start",
+      "round": 1,
+      "chars": 12000
+     },
+     {
+      "n": 3,
+      "doc": "crossfit",
+      "part": 3,
+      "parts": 3,
+      "via": "start",
+      "round": 1,
+      "chars": 5712
+     },
+     {
+      "n": 4,
+      "doc": "functional_training",
+      "part": 1,
+      "parts": 1,
+      "via": "start",
+      "round": 1,
+      "chars": 6727
+     },
+     {
+      "n": 5,
+      "doc": "high_intensity_interval_training",
+      "part": 1,
+      "parts": 2,
+      "via": "start",
+      "round": 1,
+      "chars": 12000
+     },
+     {
+      "n": 6,
+      "doc": "high_intensity_interval_training",
+      "part": 2,
+      "parts": 2,
+      "via": "start",
+      "round": 1,
+      "chars": 6453
+     }
+    ],
+    "start_docs": [
+     "crossfit",
+     "functional_training",
+     "high_intensity_interval_training"
+    ],
+    "docs_read": [
+     "crossfit",
+     "functional_training",
+     "high_intensity_interval_training"
+    ],
+    "blocked": [],
+    "unknown": [],
+    "over_budget": 0
+   },
+   "drafts": [
+    {
+     "round": 1,
+     "markdown": "크로스핏은 전형적인 체육관 프로그램이라기보다 ‘상시 변형된 기능적 움직임을 고강도로 수행’하는 훈련 철학으로 정의된다. 이 명제는 창립자 Greg Glassman(그렉 글래스먼)이 Lauren Jenai(로렌 제나이)와 함께 2000년 회사를 설립하고 2001년 산타크루즈 체육관을 열며 공표한 방법론에서 비롯되었다[d:crossfit]. 글래스먼은 체조 배경의 운동선수였고 16세 때 체조적 움직임과 역도 요소를 결합한 첫 운동(예: 프랜)을 만들며 체조와 역도의 결합을 이론화했다[d:crossfit].\n\n훈련 방식은 하루의 WOD(Workout of the Day)를 통해 매일 내용이 달라지며, 세 가지 모달리티—유산소/메트콘, 역도(중량), 체조(칼리스데닉스)—의 혼합으로 구성된다. 대표적 동작으로 줄넘기·로잉·런닝 등 메트콘, 스내치·클린앤저크·스쿼트·스러스터 등 역도형 동작, 풀업·머슬업·핸드스탠드 푸시업·로프클라임 등 체조형 동작이 포함된다[d:crossfit]. 또한 운동을 처방대로 수행하면 \"Rx'd\"라 하고, 참가자 수준에 맞춰 반복수·무게·동작을 조정하는 \"스케일링\"을 허용한다[d:crossfit].\n\n방법론의 뿌리는 크게 HIIT(고강도 인터벌 트레이닝), 기능적 트레이닝, 체조 및 올림픽식 역도에 있다. CrossFit은 짧고 고강도의 반복적 작업으로 무산소 에너지원의 큰 동원을 특징으로 하는 HIIT의 원리(최대·근최대 노력과 짧은 휴식)를 채택하고 있으며[d:high_intensity_interval_training], 기능적 트레이닝의 일상 동작 재현·다관절성 원칙과도 일치한다[d:functional_training]. 이처럼 크로스핏은 HIIT의 시간·강도 원리와 기능적·체조·역도의 기술적 요소를 통합해 ‘어떤 물리적 상황에도 대비하는 범용적 체력’을 목표로 한다[d:crossfit].",
+     "status": "sufficient",
+     "missing": "",
+     "handoffs": [
+      {
+       "section_id": "S4",
+       "note": "횡문근융해증 등 안전·부상 논란(사례와 논쟁)은 부문 S4로 이관. 관련 근거와 사례가 CrossFit 문서에 있음.",
+       "doc_id": "crossfit"
+      },
+      {
+       "section_id": "S3",
+       "note": "CrossFit Games의 대회 구조·대회사(오픈·게임즈 연혁·사망사건 등)는 S3로 이관. 관련 내용이 CrossFit 문서에 포함됨.",
+       "doc_id": "crossfit"
+      }
+     ],
+     "cited": [
+      "crossfit",
+      "high_intensity_interval_training",
+      "functional_training"
+     ],
+     "unread_cited": [],
+     "unknown_cited": [],
+     "chars": 915,
+     "reads_used": 6
+    }
+   ],
+   "merges": [],
+   "final": {
+    "round": 1,
+    "markdown": "크로스핏은 전형적인 체육관 프로그램이라기보다 ‘상시 변형된 기능적 움직임을 고강도로 수행’하는 훈련 철학으로 정의된다. 이 명제는 창립자 Greg Glassman(그렉 글래스먼)이 Lauren Jenai(로렌 제나이)와 함께 2000년 회사를 설립하고 2001년 산타크루즈 체육관을 열며 공표한 방법론에서 비롯되었다[d:crossfit]. 글래스먼은 체조 배경의 운동선수였고 16세 때 체조적 움직임과 역도 요소를 결합한 첫 운동(예: 프랜)을 만들며 체조와 역도의 결합을 이론화했다[d:crossfit].\n\n훈련 방식은 하루의 WOD(Workout of the Day)를 통해 매일 내용이 달라지며, 세 가지 모달리티—유산소/메트콘, 역도(중량), 체조(칼리스데닉스)—의 혼합으로 구성된다. 대표적 동작으로 줄넘기·로잉·런닝 등 메트콘, 스내치·클린앤저크·스쿼트·스러스터 등 역도형 동작, 풀업·머슬업·핸드스탠드 푸시업·로프클라임 등 체조형 동작이 포함된다[d:crossfit]. 또한 운동을 처방대로 수행하면 \"Rx'd\"라 하고, 참가자 수준에 맞춰 반복수·무게·동작을 조정하는 \"스케일링\"을 허용한다[d:crossfit].\n\n방법론의 뿌리는 크게 HIIT(고강도 인터벌 트레이닝), 기능적 트레이닝, 체조 및 올림픽식 역도에 있다. CrossFit은 짧고 고강도의 반복적 작업으로 무산소 에너지원의 큰 동원을 특징으로 하는 HIIT의 원리(최대·근최대 노력과 짧은 휴식)를 채택하고 있으며[d:high_intensity_interval_training], 기능적 트레이닝의 일상 동작 재현·다관절성 원칙과도 일치한다[d:functional_training]. 이처럼 크로스핏은 HIIT의 시간·강도 원리와 기능적·체조·역도의 기술적 요소를 통합해 ‘어떤 물리적 상황에도 대비하는 범용적 체력’을 목표로 한다[d:crossfit].",
+    "status": "sufficient",
+    "missing": "",
+    "handoffs": [
+     {
+      "section_id": "S4",
+      "note": "횡문근융해증 등 안전·부상 논란(사례와 논쟁)은 부문 S4로 이관. 관련 근거와 사례가 CrossFit 문서에 있음.",
+      "doc_id": "crossfit"
+     },
+     {
+      "section_id": "S3",
+      "note": "CrossFit Games의 대회 구조·대회사(오픈·게임즈 연혁·사망사건 등)는 S3로 이관. 관련 내용이 CrossFit 문서에 포함됨.",
+      "doc_id": "crossfit"
+     }
+    ],
+    "cited": [
+     "crossfit",
+     "high_intensity_interval_training",
+     "functional_training"
+    ],
+    "unread_cited": [],
+    "unknown_cited": [],
+    "chars": 915,
+    "reads_used": 6
+   },
+   "submit_rejections": 0,
+   "gate_rejections": 0
+  },
+  "S2": {
+   "meta": {
+    "id": "S2",
+    "role_name": "확산·비즈니스",
+    "title": "프랜차이즈·라이선스·브랜드 제휴와 상업적 확장",
+    "role": "role: 크로스핏은 어떤 비즈니스 모델(애필리에이트, 라이선스, 파트너십)과 제휴(신발·장비·투자)를 통해 확장했나?",
+    "scope_in": "크로스핏 애필리에이트(체육관) 모델, 브랜드 제휴 및 라이선스(예: Reebok ·Nobull), 장비업체·커뮤니티 기업(Rogue 등)과의 관계, 투자·소유권 변화(해당 자료가 있을 경우), 머천다이징·박스 수·자격증 제도(가능한 범위).",
+    "scope_out": "대회 규정·연도별 경기 이력(대회 파트 담당), 운동 방법론·훈련 프로그램의 기술적 상세(기원 파트 담당).",
+    "start_docs": [
+     "reebok",
+     "nobull",
+     "rogue_fitness"
+    ],
+    "budget": 6
+   },
+   "agent": "리서처 S2",
+   "reads": {
+    "budget": 12,
+    "used": 7,
+    "log": [
+     {
+      "n": 1,
+      "doc": "reebok",
+      "part": 1,
+      "parts": 4,
+      "via": "start",
+      "round": 1,
+      "chars": 12000
+     },
+     {
+      "n": 2,
+      "doc": "reebok",
+      "part": 2,
+      "parts": 4,
+      "via": "start",
+      "round": 1,
+      "chars": 12000
+     },
+     {
+      "n": 3,
+      "doc": "reebok",
+      "part": 3,
+      "parts": 4,
+      "via": "start",
+      "round": 1,
+      "chars": 12000
+     },
+     {
+      "n": 4,
+      "doc": "reebok",
+      "part": 4,
+      "parts": 4,
+      "via": "start",
+      "round": 1,
+      "chars": 7630
+     },
+     {
+      "n": 5,
+      "doc": "nobull",
+      "part": 1,
+      "parts": 1,
+      "via": "start",
+      "round": 1,
+      "chars": 2060
+     },
+     {
+      "n": 6,
+      "doc": "rogue_fitness",
+      "part": 1,
+      "parts": 1,
+      "via": "start",
+      "round": 1,
+      "chars": 5209
+     },
+     {
+      "n": 7,
+      "doc": "crossfit_games",
+      "part": 1,
+      "parts": 3,
+      "via": "search",
+      "round": 2,
+      "chars": 12000
+     }
+    ],
+    "start_docs": [
+     "reebok",
+     "nobull",
+     "rogue_fitness"
+    ],
+    "docs_read": [
+     "reebok",
+     "nobull",
+     "rogue_fitness",
+     "crossfit_games"
+    ],
+    "blocked": [],
+    "unknown": [],
+    "over_budget": 0
+   },
+   "drafts": [
+    {
+     "round": 1,
+     "markdown": "크로스핏은 애필리에이트(개별 체육관) 모델을 통해 전 세계로 확산되었으며, 이 모델은 박스(box) 운영·자격증·머천다이징을 결합한 로컬 소유·글로벌 브랜드의 혼합 구조를 만든다. Reebok은 2010년 크로스핏과 10년 파트너십을 맺고 공식 의류·신발 스폰서가 되어 CrossFit Games 스폰서십과 Nano 신발 출시로 브랜드 인지도를 대폭 확대했다[d:reebok][d:reebok]. Nobull은 2015년 창업 이후 크로스핏 커뮤니티에 밀접히 결합되어 2021~2023년 CrossFit Games 타이틀 스폰서로 활동하며 크로스핏 시장의 프리미엄 의류·신발 부문을 공략했다[d:nobull]. Rogue Fitness는 2007년 크로스핏 박스 장비 수요를 기회로 설립되어 박스 장비 공급을 주도하고, 2009년부터 CrossFit Games 장비 공급을 담당해 대회와 박스의 장비 표준화를 촉진했다[d:rogue_fitness].\n\n제휴·라이선스 방식: Reebok과의 협력은 전통적 스폰서·라이선스 계약과 제품 공동개발(예: Nano)을 포함하며, Nobull과 Rogue는 브랜드-커뮤니티 연계와 장비 공급을 통한 제휴로 나타난다[d:reebok][d:nobull][d:rogue_fitness].\n\n박스 수·자격증·머천다이징: Rogue는 박스 대상으로 장비 일괄 공급 및 제품 라인업으로 표준화 역할을 했고, 애필리에이트 모델 아래 수많은 박스가 지역 사업주에 의해 운영되며 CrossFit 자격증과 코치 교육(CrossFit Level 1 등)과 결합되어 브랜드 일관성과 품질 관리를 지원한다(관련 세부 수치는 시작 자료에 부재)[d:rogue_fitness][d:reebok].\n\n투자·소유권 변화: Reebok은 2010–2020년 CrossFit과 장기 파트너십을 맺었고 이후 2022년 Authentic Brands Group(ABG)에 인수되어 브랜드 전략을 재구성하며 다양한 라이선스 파트너를 통해 지역 운영을 확대했다[d:reebok]. Nobull은 2023년 Mike Repole의 다수 지분 인수 및 2024년 Tom Brady의 지분 참여 등으로 소유구조 변화가 있었고, 2021년 투자 유치로 빠르게 성장했음이 기록되어 있다[d:nobull]. Rogue는 설립자 Bill Henniger의 박스 장비 문제에서 출발해 자체 제조·유통을 확장하며 M&A와 이벤트(로우그 인비테이셔널)를 통해 수익 다각화를 이뤘다[d:rogue_fitness].\n\n이 보고서는 시작 자료(Reebok 4쪽, Nobull 1쪽, Rogue Fitness 1쪽)를 바탕으로 작성되었으며, 박스 수의 정확한 총계·CrossFit 자격증 제도의 연혁 세부·애필리에이트 수익 분배 구조 등 일부 수치는 시작 자료에 없어 추가 조사가 필요하다.",
+     "status": "insufficient",
+     "missing": "박스 수의 총계, CrossFit 자격증 제도의 연혁과 수익분배 세부, 라이선스 계약서 전문과 수치(매출 기여도 등)가 시작 자료에 없어 포함하지 못함.",
+     "handoffs": [
+      {
+       "section_id": "S1",
+       "note": "창립자·운동철학·방법론 관련 역사 및 초기 확산(운동 기원과 첫 박스들)에 대한 상세는 S1에서 다룰 문헌들이 필요합니다.",
+       "doc_id": "reebok"
+      },
+      {
+       "section_id": "S3",
+       "note": "CrossFit Games의 대회 구조·연혁·스폰서십 변천(대회 파트가 다룸) 관련 상세는 S3로 넘깁니다.",
+       "doc_id": "reebok"
+      }
+     ],
+     "cited": [
+      "reebok",
+      "nobull",
+      "rogue_fitness"
+     ],
+     "unread_cited": [],
+     "unknown_cited": [],
+     "chars": 1379,
+     "reads_used": 6
+    },
+    {
+     "round": 2,
+     "markdown": "크로스핏 확산의 핵심은 애필리에이트(개별 박스) 모델과 글로벌 브랜드 제휴의 결합이다. 애필리에이트 시스템은 지역 사업자가 박스를 소유·운영하면서 CrossFit 브랜드와 커리큘럼·자격증(예: Level 1)을 통한 품질 기준을 유지하는 분산형 확장 방식으로 작동하며, 박스는 지역 커뮤니티·머천다이징·이벤트 수익을 결합한 비즈니스 모델을 형성한다(박스 총수는 시작 자료에 부재)[d:crossfit_games][d:rogue_fitness].\n\n글로벌 브랜드와의 제휴는 스폰서십·라이선스·공동제품개발 형태로 진행되었다. Reebok은 2010년 크로스핏과 10년 파트너십을 체결해 CrossFit Games 공식 의류·신발 파트너가 되고 Nano 신발을 공동 개발해 크로스핏 문화를 소비재 시장으로 확장시켰다[d:reebok][d:crossfit_games]. Nobull은 크로스핏 커뮤니티 출신 창업자로 2021–2023년 CrossFit Games 타이틀 스폰서가 되어 프리미엄 의류·신발 시장을 공략했고, 이후 지분·경영구조 변화(2023년 다수 지분 인수, 2024년 톰 브래디 지분 참여)가 있었다[d:nobull]. Rogue Fitness는 박스 장비 일괄 공급과 자체 제조를 통해 박스 표준화를 촉진하고 Games 장비 공급 및 대회 장비 개발로 수익 다각화를 이뤘다[d:rogue_fitness].\n\n소유권·투자 측면에서 Reebok의 CrossFit 파트너십은 2011년 이후 Games 상금·노출을 크게 늘렸고, Reebok 자체도 2022년 ABG 인수로 라이선스·지역 운영 파트너십 구조를 재편했다[d:reebok][d:crossfit_games]. Nobull과 Rogue의 투자·M&A·스폰서 활동은 크로스핏 생태계의 상업화 경로를 다양화했다[d:nobull][d:rogue_fitness].\n\n이 절은 시작 자료(Reebok 4쪽·Nobull 1쪽·Rogue Fitness 1쪽·CrossFit Games 3쪽)를 바탕으로 작성되었으며, 박스 수 총계, 애필리에이트의 수익분배 구조, 자격증 제도(연혁·매출 기여) 등 구체적 수치와 계약서 전문은 원문에 없어 추가 자료가 필요하다.",
+     "status": "insufficient",
+     "missing": "박스 수 총계, 애필리에이트 수익분배(로열티·머천다이징·라이선스 수입 등)의 수치, CrossFit 자격증 제도의 연혁별 운영·매출 기여 수치, 개별 스폰서십 계약의 재무 조항(예: Reebok·Nobull 계약의 금전적 규모)에 관한 원문이 시작 자료에 없어 포함하지 못함.",
+     "handoffs": [
+      {
+       "section_id": "S1",
+       "note": "크로스핏 창립 초기 애필리에이트 초기 확산 및 창립자 관련 역사·철학은 S1에서 상세화 필요.",
+       "doc_id": "crossfit_games"
+      },
+      {
+       "section_id": "S3",
+       "note": "Games 스폰서십의 재무·상금 증액 현황과 대회 운영에서의 상업적 영향 분석을 S3로 이관함.",
+       "doc_id": "crossfit_games"
+      },
+      {
+       "section_id": "S6",
+       "note": "CrossFit Mayhem 등 주요 애슬리트 운영 박스의 수익구조·스폰서 계약 세부는 S6로 이관함.",
+       "doc_id": "rogue_fitness"
+      }
+     ],
+     "cited": [
+      "crossfit_games",
+      "rogue_fitness",
+      "reebok",
+      "nobull"
+     ],
+     "unread_cited": [],
+     "unknown_cited": [],
+     "chars": 1071,
+     "reads_used": 7
+    },
+    {
+     "round": 3,
+     "markdown": "크로스핏의 확산과 상업적 확장은 로컬 소유의 애필리에이트(박스) 모델과 글로벌 브랜드 제휴가 결합된 다층적 비즈니스 구조로 설명된다. 애필리에이트 체계는 지역 사업자가 박스를 운영하며 CrossFit의 교육·자격(예: 코치 레벨)과 커뮤니티 기반 머천다이징을 결합해 수익을 창출하는 분산형 프랜차이즈 유사 모델이다(박스 총수·수익 분배 비율은 시작 자료에 부재)[d:crossfit_games][d:rogue_fitness].\n\n브랜드 제휴는 스폰서십·라이선스·공동제품개발 형태로 진행되었다. Reebok은 2010년 크로스핏과 10년 파트너십을 맺고 CrossFit Games 공식 의류·신발 파트너로서 Nano를 공동 개발해 문화를 소비재로 상업화했고, Games 상금·노출 확대에 기여했다[d:reebok][d:crossfit_games]. Nobull은 크로스핏 출신 창업자가 설립해 2021–2023년 Games 타이틀 스폰서로 활동하며 프리미엄 의류·신발 시장을 공략했고, 2023년 이후 지분 변화와 전략적 투자로 소유구조가 재편되었다[d:nobull]. Rogue Fitness는 박스 장비 일괄 공급과 자체 제조로 박스 표준화를 주도하고 Games 장비·이벤트를 통한 수익 다각화를 실행했다[d:rogue_fitness].\n\n요약: 애필리에이트(로컬 박스) 모델 + 장비·의류 스폰서십(공동제품 개발 포함) + 장비 제조·이벤트 운영을 통한 수직·수평적 확장이 핵심이다. 다만 박스 수 총계, 애필리에이트의 구체적 수익분배(로열티·머천다이징·라이선스 수입 비중), 자격증 제도의 연혁별 매출 기여, 개별 스폰서십의 재무 조항(금액·계약기간 등)은 시작 자료에 없어 추가 문헌·계약서 검토가 필요하다.",
+     "status": "insufficient",
+     "missing": "시작 자료에 박스 총수·애필리에이트 수익분배 비율·자격증 제도의 연혁별 매출 기여 및 Reebok/Nobull 등 스폰서십의 금전적 규모·계약 세부가 없어 포함하지 못함.",
+     "handoffs": [
+      {
+       "section_id": "S1",
+       "note": "창립·초기 애필리에이트 확산 및 운동철학의 연계 분석은 S1로 이관합니다.",
+       "doc_id": "crossfit_games"
+      },
+      {
+       "section_id": "S3",
+       "note": "Games 스폰서십의 재무적 영향(상금 증액·스폰서 계약 규모)과 대회 운영에서의 상업성 분석은 S3로 이관합니다.",
+       "doc_id": "crossfit_games"
+      },
+      {
+       "section_id": "S6",
+       "note": "주요 박스(예: CrossFit Mayhem)의 애필리에이트 운영·스폰서 계약·수익구조 상세는 S6로 이관합니다.",
+       "doc_id": "rogue_fitness"
+      }
+     ],
+     "cited": [
+      "crossfit_games",
+      "rogue_fitness",
+      "reebok",
+      "nobull"
+     ],
+     "unread_cited": [],
+     "unknown_cited": [],
+     "chars": 848,
+     "reads_used": 7
+    }
+   ],
+   "merges": [
+    {
+     "sid": "S2",
+     "round": 2,
+     "decision": "교체",
+     "reason": "이전 인용 3건을 모두 유지하고 1건을 더함 → 교체"
+    },
+    {
+     "sid": "S2",
+     "round": 3,
+     "decision": "교체",
+     "reason": "이전 인용 4건을 모두 유지하고 0건을 더함 → 교체"
+    }
+   ],
+   "final": {
+    "round": 3,
+    "markdown": "크로스핏의 확산과 상업적 확장은 로컬 소유의 애필리에이트(박스) 모델과 글로벌 브랜드 제휴가 결합된 다층적 비즈니스 구조로 설명된다. 애필리에이트 체계는 지역 사업자가 박스를 운영하며 CrossFit의 교육·자격(예: 코치 레벨)과 커뮤니티 기반 머천다이징을 결합해 수익을 창출하는 분산형 프랜차이즈 유사 모델이다(박스 총수·수익 분배 비율은 시작 자료에 부재)[d:crossfit_games][d:rogue_fitness].\n\n브랜드 제휴는 스폰서십·라이선스·공동제품개발 형태로 진행되었다. Reebok은 2010년 크로스핏과 10년 파트너십을 맺고 CrossFit Games 공식 의류·신발 파트너로서 Nano를 공동 개발해 문화를 소비재로 상업화했고, Games 상금·노출 확대에 기여했다[d:reebok][d:crossfit_games]. Nobull은 크로스핏 출신 창업자가 설립해 2021–2023년 Games 타이틀 스폰서로 활동하며 프리미엄 의류·신발 시장을 공략했고, 2023년 이후 지분 변화와 전략적 투자로 소유구조가 재편되었다[d:nobull]. Rogue Fitness는 박스 장비 일괄 공급과 자체 제조로 박스 표준화를 주도하고 Games 장비·이벤트를 통한 수익 다각화를 실행했다[d:rogue_fitness].\n\n요약: 애필리에이트(로컬 박스) 모델 + 장비·의류 스폰서십(공동제품 개발 포함) + 장비 제조·이벤트 운영을 통한 수직·수평적 확장이 핵심이다. 다만 박스 수 총계, 애필리에이트의 구체적 수익분배(로열티·머천다이징·라이선스 수입 비중), 자격증 제도의 연혁별 매출 기여, 개별 스폰서십의 재무 조항(금액·계약기간 등)은 시작 자료에 없어 추가 문헌·계약서 검토가 필요하다.",
+    "status": "insufficient",
+    "missing": "시작 자료에 박스 총수·애필리에이트 수익분배 비율·자격증 제도의 연혁별 매출 기여 및 Reebok/Nobull 등 스폰서십의 금전적 규모·계약 세부가 없어 포함하지 못함.",
+    "handoffs": [
+     {
+      "section_id": "S1",
+      "note": "창립·초기 애필리에이트 확산 및 운동철학의 연계 분석은 S1로 이관합니다.",
+      "doc_id": "crossfit_games"
+     },
+     {
+      "section_id": "S3",
+      "note": "Games 스폰서십의 재무적 영향(상금 증액·스폰서 계약 규모)과 대회 운영에서의 상업성 분석은 S3로 이관합니다.",
+      "doc_id": "crossfit_games"
+     },
+     {
+      "section_id": "S6",
+      "note": "주요 박스(예: CrossFit Mayhem)의 애필리에이트 운영·스폰서 계약·수익구조 상세는 S6로 이관합니다.",
+      "doc_id": "rogue_fitness"
+     }
+    ],
+    "cited": [
+     "crossfit_games",
+     "rogue_fitness",
+     "reebok",
+     "nobull"
+    ],
+    "unread_cited": [],
+    "unknown_cited": [],
+    "chars": 848,
+    "reads_used": 7
+   },
+   "submit_rejections": 0,
+   "gate_rejections": 0
+  },
+  "S3": {
+   "meta": {
+    "id": "S3",
+    "role_name": "대회·선수",
+    "title": "크로스핏 게임즈와 경쟁구조의 발전(오픈→예선→게임즈) 및 주요 선수들",
+    "role": "role: 크로스핏의 경쟁 구조(오픈·지역·게임즈)는 어떻게 발전했으며, 대회의 주요 전개(장소·규모 변화)와 눈에 띄는 선수·챔피언은 누구인가?",
+    "scope_in": "CrossFit Games의 연혁·구조(오픈, 예선, 지역, 게임즈), 대회 장소와 규모 변화(아로마스→카슨→매디슨 등), 대회 형식의 변화, 시대별 주요 우승자와 영향력 있는 선수(예: Rich Froning, Mat Fraser, Tia-Clair Toomey 등).",
+    "scope_out": "비즈니스·스폰서십의 재무적 세부(확산 파트 담당), 운동 방법론의 기술적 근거·부상 연구(안전 파트 담당).",
+    "start_docs": [
+     "crossfit_games",
+     "2007_crossfit_games",
+     "2010_crossfit_games"
+    ],
+    "budget": 6
+   },
+   "agent": "리서처 S3",
+   "reads": {
+    "budget": 6,
+    "used": 5,
+    "log": [
+     {
+      "n": 1,
+      "doc": "crossfit_games",
+      "part": 1,
+      "parts": 3,
+      "via": "start",
+      "round": 1,
+      "chars": 12000
+     },
+     {
+      "n": 2,
+      "doc": "crossfit_games",
+      "part": 2,
+      "parts": 3,
+      "via": "start",
+      "round": 1,
+      "chars": 12000
+     },
+     {
+      "n": 3,
+      "doc": "crossfit_games",
+      "part": 3,
+      "parts": 3,
+      "via": "start",
+      "round": 1,
+      "chars": 5053
+     },
+     {
+      "n": 4,
+      "doc": "2007_crossfit_games",
+      "part": 1,
+      "parts": 1,
+      "via": "start",
+      "round": 1,
+      "chars": 2974
+     },
+     {
+      "n": 5,
+      "doc": "2010_crossfit_games",
+      "part": 1,
+      "parts": 1,
+      "via": "start",
+      "round": 1,
+      "chars": 5769
+     }
+    ],
+    "start_docs": [
+     "crossfit_games",
+     "2007_crossfit_games",
+     "2010_crossfit_games"
+    ],
+    "docs_read": [
+     "crossfit_games",
+     "2007_crossfit_games",
+     "2010_crossfit_games"
+    ],
+    "blocked": [],
+    "unknown": [],
+    "over_budget": 0
+   },
+   "drafts": [
+    {
+     "round": 1,
+     "markdown": "크로스핏 게임즈는 2007년 아로마스의 목장에서 시작된 이래 점진적으로 확장되어 오늘의 오픈→예선(Regionals/Sanctionals/세미파이널 등)→게임즈의 3단계(시기에 따라 4단계 체계 포함) 구조를 확립했다[d:crossfit_games][d:2007_crossfit_games]. 초대 대회는 자격이 없었고 약 70명의 선수와 150명의 관중이 모였으며 세 종목으로 우승자를 가렸다[d:2007_crossfit_games]. 2010년 대회는 아로마스를 떠나 카슨의 홈디포 센터로 이전했고, 같은 해 섹셔널을 도입해 지역 예선을 통한 선발 체계를 만들었다[d:crossfit_games][d:2010_crossfit_games]. 2011년에는 온라인 오픈이 도입되어 세계 최대의 참여형 스포츠 이벤트로 성장했으며, 이후 오픈→리전als(또는 섹셔널)→게임즈의 전통적 루트가 확립되었다[d:crossfit_games]. 2015년 이후 리전als가 슈퍼리전als로 재편되고, 2019년에는 리전als를 폐지하고 산션널(Sanctionals)과 초청·오픈을 통한 복수 경로 자격제도가 도입되었다[d:crossfit_games]. 2017년부터 2023년까지는 매디슨(올리언트 에너지 센터)에서 개최되었고, 2024년에는 포트워스, 2025년에는 올버니로 이동하며 2026년에는 산호세(SAP 센터)에서 20주년을 맞았다[d:crossfit_games]. 경기 형식도 초창기 3개 이벤트에서 현재 통상 12–15개 이벤트로 늘어났고, 점수 체계와 참가자 수(최종 본선 30명 내외)는 여러 차례 개편되었다[d:crossfit_games]. 눈에 띄는 선수로는 초창기 우승자 제임스 피츠제럴드(2007), 그해 우승자와 이후 등장한 그레이엄 홈버그(2010 우승) 등이 있고[d:2007_crossfit_games][d:2010_crossfit_games], 남자부에서는 리치 프로닝(4회 우승)과 매트 프레이저(5회 우승), 여자부에서는 티아-클레어 투미(8회 우승)가 게임즈 역사를 주도했다[d:crossfit_games]. 코로나19와 안전 논란 등으로 2020–2024년의 예선·개최 방식이 크게 흔들렸고 온라인 예선·쿼터파이널 도입과 연도별 규정 변화가 이어졌다[d:crossfit_games].",
+     "status": "sufficient",
+     "missing": "",
+     "handoffs": [
+      {
+       "section_id": "S1",
+       "note": "크로스핏의 창립자·철학과 운동 방법론(기원·훈련방식) 상세 내용은 본 문서에 일부 기원 언급은 있으나, 방법론의 기초와 창립 경위는 S1에서 다뤄야 함.",
+       "doc_id": "d:crossfit_games"
+      },
+      {
+       "section_id": "S2",
+       "note": "대회 스폰서(리복·노불 등)와 상업적 확장 관련 세부 재무 및 프랜차이즈 모델 정보는 본 문서에서 개괄적으로 언급되어 있으나 상세 분석은 S2로 이관.",
+       "doc_id": "d:crossfit_games"
+      },
+      {
+       "section_id": "S4",
+       "note": "대회 중 발생한 안전사고(예: 2024년 사망사건)와 건강·안전 논란은 본 문서에서 서술되어 있어 자세한 안전·과학적 분석은 S4에 전달.",
+       "doc_id": "d:crossfit_games"
+      }
+     ],
+     "cited": [
+      "crossfit_games",
+      "2007_crossfit_games",
+      "2010_crossfit_games"
+     ],
+     "unread_cited": [],
+     "unknown_cited": [],
+     "chars": 1126,
+     "reads_used": 5
+    }
+   ],
+   "merges": [],
+   "final": {
+    "round": 1,
+    "markdown": "크로스핏 게임즈는 2007년 아로마스의 목장에서 시작된 이래 점진적으로 확장되어 오늘의 오픈→예선(Regionals/Sanctionals/세미파이널 등)→게임즈의 3단계(시기에 따라 4단계 체계 포함) 구조를 확립했다[d:crossfit_games][d:2007_crossfit_games]. 초대 대회는 자격이 없었고 약 70명의 선수와 150명의 관중이 모였으며 세 종목으로 우승자를 가렸다[d:2007_crossfit_games]. 2010년 대회는 아로마스를 떠나 카슨의 홈디포 센터로 이전했고, 같은 해 섹셔널을 도입해 지역 예선을 통한 선발 체계를 만들었다[d:crossfit_games][d:2010_crossfit_games]. 2011년에는 온라인 오픈이 도입되어 세계 최대의 참여형 스포츠 이벤트로 성장했으며, 이후 오픈→리전als(또는 섹셔널)→게임즈의 전통적 루트가 확립되었다[d:crossfit_games]. 2015년 이후 리전als가 슈퍼리전als로 재편되고, 2019년에는 리전als를 폐지하고 산션널(Sanctionals)과 초청·오픈을 통한 복수 경로 자격제도가 도입되었다[d:crossfit_games]. 2017년부터 2023년까지는 매디슨(올리언트 에너지 센터)에서 개최되었고, 2024년에는 포트워스, 2025년에는 올버니로 이동하며 2026년에는 산호세(SAP 센터)에서 20주년을 맞았다[d:crossfit_games]. 경기 형식도 초창기 3개 이벤트에서 현재 통상 12–15개 이벤트로 늘어났고, 점수 체계와 참가자 수(최종 본선 30명 내외)는 여러 차례 개편되었다[d:crossfit_games]. 눈에 띄는 선수로는 초창기 우승자 제임스 피츠제럴드(2007), 그해 우승자와 이후 등장한 그레이엄 홈버그(2010 우승) 등이 있고[d:2007_crossfit_games][d:2010_crossfit_games], 남자부에서는 리치 프로닝(4회 우승)과 매트 프레이저(5회 우승), 여자부에서는 티아-클레어 투미(8회 우승)가 게임즈 역사를 주도했다[d:crossfit_games]. 코로나19와 안전 논란 등으로 2020–2024년의 예선·개최 방식이 크게 흔들렸고 온라인 예선·쿼터파이널 도입과 연도별 규정 변화가 이어졌다[d:crossfit_games].",
+    "status": "sufficient",
+    "missing": "",
+    "handoffs": [
+     {
+      "section_id": "S1",
+      "note": "크로스핏의 창립자·철학과 운동 방법론(기원·훈련방식) 상세 내용은 본 문서에 일부 기원 언급은 있으나, 방법론의 기초와 창립 경위는 S1에서 다뤄야 함.",
+      "doc_id": "d:crossfit_games"
+     },
+     {
+      "section_id": "S2",
+      "note": "대회 스폰서(리복·노불 등)와 상업적 확장 관련 세부 재무 및 프랜차이즈 모델 정보는 본 문서에서 개괄적으로 언급되어 있으나 상세 분석은 S2로 이관.",
+      "doc_id": "d:crossfit_games"
+     },
+     {
+      "section_id": "S4",
+      "note": "대회 중 발생한 안전사고(예: 2024년 사망사건)와 건강·안전 논란은 본 문서에서 서술되어 있어 자세한 안전·과학적 분석은 S4에 전달.",
+      "doc_id": "d:crossfit_games"
+     }
+    ],
+    "cited": [
+     "crossfit_games",
+     "2007_crossfit_games",
+     "2010_crossfit_games"
+    ],
+    "unread_cited": [],
+    "unknown_cited": [],
+    "chars": 1126,
+    "reads_used": 5
+   },
+   "submit_rejections": 0,
+   "gate_rejections": 0
+  },
+  "S4": {
+   "meta": {
+    "id": "S4",
+    "role_name": "안전·논쟁",
+    "title": "부상·건강 문제와 사회적 논란(과학적 근거 및 위기 사례)",
+    "role": "role: 크로스핏 관련 안전 문제(부상·횡문근융해증 등)와 이와 관련된 논쟁, 과학적 근거나 소송·비판 사례는 무엇인가?",
+    "scope_in": "횡문근융해증(rhabdomyolysis)과 같은 심각한 부작용 사례, 과훈련·과부하 관련 문제, 운동 강도와 안전성에 관한 일반적 연구·비판(오버트레이닝 관련), 사회적 논란과 위기 대응(가능한 범위).",
+    "scope_out": "대회별 경기 기록·챔피언 개별 이력(대회·선수 파트 담당), 크로스핏의 창립 철학·방법론의 세부 설명(기원 파트 담당).",
+    "start_docs": [
+     "rhabdomyolysis",
+     "overtraining"
+    ],
+    "budget": 5
+   },
+   "agent": "리서처 S4",
+   "reads": {
+    "budget": 5,
+    "used": 3,
+    "log": [
+     {
+      "n": 1,
+      "doc": "rhabdomyolysis",
+      "part": 1,
+      "parts": 3,
+      "via": "start",
+      "round": 1,
+      "chars": 12000
+     },
+     {
+      "n": 2,
+      "doc": "rhabdomyolysis",
+      "part": 2,
+      "parts": 3,
+      "via": "start",
+      "round": 1,
+      "chars": 12000
+     },
+     {
+      "n": 3,
+      "doc": "overtraining",
+      "part": 1,
+      "parts": 1,
+      "via": "start",
+      "round": 1,
+      "chars": 6859
+     }
+    ],
+    "start_docs": [
+     "rhabdomyolysis",
+     "overtraining"
+    ],
+    "docs_read": [
+     "rhabdomyolysis",
+     "overtraining"
+    ],
+    "blocked": [],
+    "unknown": [],
+    "over_budget": 0
+   },
+   "drafts": [
+    {
+     "round": 1,
+     "markdown": "크로스핏 관련 안전 문제의 핵심은 고강도·반복적 훈련이 과도할 경우 발생할 수 있는 과훈련과 드물지만 심각한 횡문근융해증(rhabdomyolysis)이다. 과훈련은 회복능력을 초과한 훈련부하로 정의되며, 지속적 근육통·지속 피로·성능 저하·감염 취약성 등 다양한 증상을 초래한다[d:overtraining].\n\n횡문근융해증은 골격근 붕괴로 근육통·무력감·홍차빛 소변·심전도 이상 등을 보이며, 근육 내 단백질(마이오글로빈)과 크레아틴키나아제 증가로 급성신손상을 일으킬 수 있다[d:rhabdomyolysis]. 진단은 혈중 CK>1000 U/L 기준이 권고되며, 중증은 5000–15000 U/L 이상으로 본다[d:rhabdomyolysis]. 치료는 대량의 정맥수액이 주축이며, 심한 경우 투석이 필요할 수 있다[d:rhabdomyolysis].\n\n크로스핏과 횡문근융해증의 연관성은 논쟁적이며 일부 보고에서 급증 가설이 제기됐으나, 관련 연구는 결론이 일치하지 않고 한 연구는 잘못된 수행·환경이 아니라면 심각한 위협은 아니라고 보고했다[d:overtraining]. 따라서 과도한 강도·열악한 환경·복합 위험요인 존재 시 발생 위험이 커질 수 있음을 경계하고, 충분한 복구·점진적 적응·수분·감시가 예방의 핵심이다[d:overtraining][d:rhabdomyolysis].",
+     "status": "sufficient",
+     "missing": "",
+     "handoffs": [],
+     "cited": [
+      "overtraining",
+      "rhabdomyolysis"
+     ],
+     "unread_cited": [],
+     "unknown_cited": [],
+     "chars": 660,
+     "reads_used": 3
+    }
+   ],
+   "merges": [],
+   "final": {
+    "round": 1,
+    "markdown": "크로스핏 관련 안전 문제의 핵심은 고강도·반복적 훈련이 과도할 경우 발생할 수 있는 과훈련과 드물지만 심각한 횡문근융해증(rhabdomyolysis)이다. 과훈련은 회복능력을 초과한 훈련부하로 정의되며, 지속적 근육통·지속 피로·성능 저하·감염 취약성 등 다양한 증상을 초래한다[d:overtraining].\n\n횡문근융해증은 골격근 붕괴로 근육통·무력감·홍차빛 소변·심전도 이상 등을 보이며, 근육 내 단백질(마이오글로빈)과 크레아틴키나아제 증가로 급성신손상을 일으킬 수 있다[d:rhabdomyolysis]. 진단은 혈중 CK>1000 U/L 기준이 권고되며, 중증은 5000–15000 U/L 이상으로 본다[d:rhabdomyolysis]. 치료는 대량의 정맥수액이 주축이며, 심한 경우 투석이 필요할 수 있다[d:rhabdomyolysis].\n\n크로스핏과 횡문근융해증의 연관성은 논쟁적이며 일부 보고에서 급증 가설이 제기됐으나, 관련 연구는 결론이 일치하지 않고 한 연구는 잘못된 수행·환경이 아니라면 심각한 위협은 아니라고 보고했다[d:overtraining]. 따라서 과도한 강도·열악한 환경·복합 위험요인 존재 시 발생 위험이 커질 수 있음을 경계하고, 충분한 복구·점진적 적응·수분·감시가 예방의 핵심이다[d:overtraining][d:rhabdomyolysis].",
+    "status": "sufficient",
+    "missing": "",
+    "handoffs": [],
+    "cited": [
+     "overtraining",
+     "rhabdomyolysis"
+    ],
+    "unread_cited": [],
+    "unknown_cited": [],
+    "chars": 660,
+    "reads_used": 3
+   },
+   "submit_rejections": 0,
+   "gate_rejections": 0
+  },
+  "S5": {
+   "meta": {
+    "id": "S5",
+    "role_name": "인접 종목·시장",
+    "title": "크로스핏과 유사·대체되는 그룹 피트니스 비즈니스 비교",
+    "role": "role: Hyrox·F45·Orangetheory 등 다른 그룹 피트니스·경쟁형 피트니스 비즈니스는 크로스핏과 어떻게 다르고 어떤 시장적 관계가 있는가?",
+    "scope_in": "Hyrox·F45·Orangetheory의 사업모델·대회·프랜차이즈 구조·표준화 정도와 크로스핏 비교, 참가자 경험·상품(장비·의류)·시장 확장 전략의 차이점, 크로스핏이 시장에 미친 영향(대체·영향 사례).",
+    "scope_out": "크로스핏 내부의 역사적 세부(기원·대회 파트 담당) 및 개별 선수 전기(인물 파트 담당).",
+    "start_docs": [
+     "hyrox",
+     "f45_training",
+     "orangetheory_fitness"
+    ],
+    "budget": 5
+   },
+   "agent": "리서처 S5",
+   "reads": {
+    "budget": 5,
+    "used": 4,
+    "log": [
+     {
+      "n": 1,
+      "doc": "hyrox",
+      "part": 1,
+      "parts": 2,
+      "via": "start",
+      "round": 1,
+      "chars": 12000
+     },
+     {
+      "n": 2,
+      "doc": "hyrox",
+      "part": 2,
+      "parts": 2,
+      "via": "start",
+      "round": 1,
+      "chars": 531
+     },
+     {
+      "n": 3,
+      "doc": "f45_training",
+      "part": 1,
+      "parts": 1,
+      "via": "start",
+      "round": 1,
+      "chars": 4728
+     },
+     {
+      "n": 4,
+      "doc": "orangetheory_fitness",
+      "part": 1,
+      "parts": 1,
+      "via": "start",
+      "round": 1,
+      "chars": 6274
+     }
+    ],
+    "start_docs": [
+     "hyrox",
+     "f45_training",
+     "orangetheory_fitness"
+    ],
+    "docs_read": [
+     "hyrox",
+     "f45_training",
+     "orangetheory_fitness"
+    ],
+    "blocked": [],
+    "unknown": [],
+    "over_budget": 0
+   },
+   "drafts": [
+    {
+     "round": 1,
+     "markdown": "하이록스(Hyrox), F45, 오렌지띠어리(Orangetheory)는 모두 ‘표준화된 그룹 피트니스 경험’을 상품화하고 확장한 점에서 크로스핏과 시장적으로 중첩하지만 각기 다른 전략을 취한다. 하이록스는 8×(1km 달리기+기능성 스테이션)으로 구성된 표준화된 경기 형식을 전세계 동일 플랫폼으로 운영해 글로벌 리더보드와 월드챔피언십을 가능하게 했다; 대회 개최와 연계한 제휴 체육관·성능 아카데미 등으로 에코시스템을 확장한다 [d:hyrox][d:hyrox]. F45는 45분짜리 HIIT·서킷형 프로그램을 일관된 클래스 포맷으로 프랜차이즈해 빠르게 스튜디오 수를 확장(약 1,600개 스튜디오)하고 컬래버·투자(마크 왈버그 등)를 통해 브랜드 가치를 키웠다; 사업 리스크(상장·재무·경영 변동)도 경험했다 [d:f45_training]. 오렌지띠어리는 1시간 분량의 스테이션 순환 수업과 심박수 기반 ‘스플랫 포인트’ 등 테크 기반의 회원 경험·성과 피드백을 표준화하고, 대규모 프랜차이즈와 합병으로 규모화를 추진했다 [d:orangetheory_fitness].\n\n참가자 경험 면에서 하이록스는 ‘대회형’ 참여(실전 레이스·글로벌 비교)를, F45는 짧고 강도 높은 일상적 그룹수업을, 오렌지띠어리는 심박수 가시화와 코칭 중심의 시간제 클래스를 제공한다 [d:hyrox][d:f45_training][d:orangetheory_fitness]. 장비·머천다이즈 측면에서는 하이록스는 레이싱 특화 장비(SkiErg·로잉·썰매 등)를 규격화해 레이스 일관성을 확보하고, F45와 오티에프는 소규모 스튜디오용 장비와 모니터링 기기를 중심으로 표준화한다 [d:hyrox][d:f45_training][d:orangetheory_fitness].\n\n시장 확장 전략은 하이록스가 이벤트·월드챔피언십 중심으로 글로벌 비교 가능성을 강조하는 반면, F45와 오렌지띠어리는 프랜차이즈·스튜디오 네트워크 확장과 브랜드-테크 결합으로 멤버십·재방문을 유도한다 [d:hyrox][d:f45_training][d:orangetheory_fitness]. 크로스핏이 대중화한 ‘기능성·고강도’ 수요는 이들 모델에 수요 기반과 트레이닝 채널(예: 하이록스가 크로스핏 박스에서 훈련)을 제공했고, 표준화·프랜차이즈화라는 방향에 영향을 미쳤다[d:hyrox].",
+     "status": "sufficient",
+     "missing": "",
+     "handoffs": [
+      {
+       "section_id": "S2",
+       "note": "크로스핏의 프랜차이즈·애필리에이트 모델과의 직접 비교(수치·제도)는 S2에서 다뤄야 함; 본문은 경쟁업체 자료만 인용함.",
+       "doc_id": "hyrox"
+      },
+      {
+       "section_id": "S1",
+       "note": "크로스핏의 운동 기원·철학과 고강도·기능성 트레이닝 유산이 해당 시장에 미친 영향의 상세 근거(역사적 출처)는 S1로 이관.",
+       "doc_id": "orangetheory_fitness"
+      }
+     ],
+     "cited": [
+      "hyrox",
+      "f45_training",
+      "orangetheory_fitness"
+     ],
+     "unread_cited": [],
+     "unknown_cited": [],
+     "chars": 1140,
+     "reads_used": 4
+    }
+   ],
+   "merges": [],
+   "final": {
+    "round": 1,
+    "markdown": "하이록스(Hyrox), F45, 오렌지띠어리(Orangetheory)는 모두 ‘표준화된 그룹 피트니스 경험’을 상품화하고 확장한 점에서 크로스핏과 시장적으로 중첩하지만 각기 다른 전략을 취한다. 하이록스는 8×(1km 달리기+기능성 스테이션)으로 구성된 표준화된 경기 형식을 전세계 동일 플랫폼으로 운영해 글로벌 리더보드와 월드챔피언십을 가능하게 했다; 대회 개최와 연계한 제휴 체육관·성능 아카데미 등으로 에코시스템을 확장한다 [d:hyrox][d:hyrox]. F45는 45분짜리 HIIT·서킷형 프로그램을 일관된 클래스 포맷으로 프랜차이즈해 빠르게 스튜디오 수를 확장(약 1,600개 스튜디오)하고 컬래버·투자(마크 왈버그 등)를 통해 브랜드 가치를 키웠다; 사업 리스크(상장·재무·경영 변동)도 경험했다 [d:f45_training]. 오렌지띠어리는 1시간 분량의 스테이션 순환 수업과 심박수 기반 ‘스플랫 포인트’ 등 테크 기반의 회원 경험·성과 피드백을 표준화하고, 대규모 프랜차이즈와 합병으로 규모화를 추진했다 [d:orangetheory_fitness].\n\n참가자 경험 면에서 하이록스는 ‘대회형’ 참여(실전 레이스·글로벌 비교)를, F45는 짧고 강도 높은 일상적 그룹수업을, 오렌지띠어리는 심박수 가시화와 코칭 중심의 시간제 클래스를 제공한다 [d:hyrox][d:f45_training][d:orangetheory_fitness]. 장비·머천다이즈 측면에서는 하이록스는 레이싱 특화 장비(SkiErg·로잉·썰매 등)를 규격화해 레이스 일관성을 확보하고, F45와 오티에프는 소규모 스튜디오용 장비와 모니터링 기기를 중심으로 표준화한다 [d:hyrox][d:f45_training][d:orangetheory_fitness].\n\n시장 확장 전략은 하이록스가 이벤트·월드챔피언십 중심으로 글로벌 비교 가능성을 강조하는 반면, F45와 오렌지띠어리는 프랜차이즈·스튜디오 네트워크 확장과 브랜드-테크 결합으로 멤버십·재방문을 유도한다 [d:hyrox][d:f45_training][d:orangetheory_fitness]. 크로스핏이 대중화한 ‘기능성·고강도’ 수요는 이들 모델에 수요 기반과 트레이닝 채널(예: 하이록스가 크로스핏 박스에서 훈련)을 제공했고, 표준화·프랜차이즈화라는 방향에 영향을 미쳤다[d:hyrox].",
+    "status": "sufficient",
+    "missing": "",
+    "handoffs": [
+     {
+      "section_id": "S2",
+      "note": "크로스핏의 프랜차이즈·애필리에이트 모델과의 직접 비교(수치·제도)는 S2에서 다뤄야 함; 본문은 경쟁업체 자료만 인용함.",
+      "doc_id": "hyrox"
+     },
+     {
+      "section_id": "S1",
+      "note": "크로스핏의 운동 기원·철학과 고강도·기능성 트레이닝 유산이 해당 시장에 미친 영향의 상세 근거(역사적 출처)는 S1로 이관.",
+      "doc_id": "orangetheory_fitness"
+     }
+    ],
+    "cited": [
+     "hyrox",
+     "f45_training",
+     "orangetheory_fitness"
+    ],
+    "unread_cited": [],
+    "unknown_cited": [],
+    "chars": 1140,
+    "reads_used": 4
+   },
+   "submit_rejections": 0,
+   "gate_rejections": 0
+  },
+  "S6": {
+   "meta": {
+    "id": "S6",
+    "role_name": "인물 추적",
+    "title": "중심 인물 경력 추적: Rich Froning Jr. 사례로 본 크로스핏 생태계 변화",
+    "role": "role: Rich Froning Jr.의 경력(선수→운영자·체육관 오너 등)을 시계열로 따라가 크로스핏 생태계의 변화를 어떻게 반영하는가?",
+    "scope_in": "Rich Froning Jr.의 선수 경력(게임즈 성적), CrossFit Mayhem 창립과 확장, 그의 경력이 대회·트레이닝·비즈니스(아필리에이트 문화)에 준 영향 및 대표적 시점과 사건들.",
+    "scope_out": "크로스핏 전체 방법론의 이론적 기원(기원 파트 담당), 크로스핏과 경쟁 사업의 비교 분석(인접 종목 파트 담당).",
+    "start_docs": [
+     "rich_froning_jr",
+     "crossfit_mayhem"
+    ],
+    "budget": 5
+   },
+   "agent": "리서처 S6",
+   "reads": {
+    "budget": 5,
+    "used": 3,
+    "log": [
+     {
+      "n": 1,
+      "doc": "rich_froning_jr",
+      "part": 1,
+      "parts": 1,
+      "via": "start",
+      "round": 1,
+      "chars": 6896
+     },
+     {
+      "n": 2,
+      "doc": "crossfit_mayhem",
+      "part": 1,
+      "parts": 1,
+      "via": "start",
+      "round": 1,
+      "chars": 3584
+     },
+     {
+      "n": 3,
+      "doc": "froning",
+      "part": 1,
+      "parts": 1,
+      "via": "search",
+      "round": 1,
+      "chars": 214
+     }
+    ],
+    "start_docs": [
+     "rich_froning_jr",
+     "crossfit_mayhem"
+    ],
+    "docs_read": [
+     "rich_froning_jr",
+     "crossfit_mayhem",
+     "froning"
+    ],
+    "blocked": [],
+    "unknown": [],
+    "over_budget": 0
+   },
+   "drafts": [
+    {
+     "round": 1,
+     "markdown": "리치 프로닝 주니어의 경력은 개인 선수로서의 절정기와 체육관 오너·운영자로서의 확장기가 교차하며 크로스핏 생태계의 상업화·팀 경쟁화·애필리에이트 중심 문화 성장을 단적으로 보여준다. 프로닝은 2011~2014년 개인부문에서 연속 우승을 차지하며 ‘지구에서 가장 건강한 남자(Fittest Man on Earth)’로 네 차례 선정되어 선수로서 정점을 찍었다[d:rich_froning_jr]. 2015년 개인 경쟁 은퇴 후 그는 자신이 2009년 아버지 헛간에서 시작한 CrossFit Mayhem에 합류해 팀을 이끌며 2015·2016·2018·2019·2021·2022년에 팀 우승을 거두어 팀 중심 경쟁의 전환을 상징했다[d:rich_froning_jr][d:crossfit_mayhem].\n\n프로닝은 선수 활동으로 1,050,000달러 이상의 상금과 리복·오클리·로그(Rogue Fitness) 같은 스폰서십을 확보했으며, 2015년 리복이 그의 참여로 설계된 신발을 출시하는 등 엘리트 선수의 상업적 역할을 확대했다[d:rich_froning_jr]. 또한 그는 CrossFit Mayhem을 2012년 도심 시설로 확장하고 2016년에 더 큰 장소로 이전하는 등 애필리에이트를 단순 훈련장이 아닌 팬·선수의 ‘성지’로 만든 운영자가 되었다[d:crossfit_mayhem].\n\n이 경력 전환은 선수 개인의 브랜드가 특정 애필리에이트를 집중화·상업화하는 경향, 개인 선수에서 팀 리더·오너로의 이동을 통한 경쟁의 조직화, 그리고 스폰서십·상품 협업·체육관 운영을 통한 수익 다각화라는 세 가지 변화를 반영한다[d:rich_froning_jr][d:crossfit_mayhem].",
+     "status": "sufficient",
+     "missing": "",
+     "handoffs": [
+      {
+       "section_id": "S3",
+       "note": "프로닝의 게임즈 성적을 크로스핏 게임즈 연혁·구조(오픈·지역·게임즈) 속에서 비교·맥락화하는 작업은 S3(대회·선수) 절로 넘겨야 함.",
+       "doc_id": "rich_froning_jr"
+      },
+      {
+       "section_id": "S2",
+       "note": "메이헴의 애필리에이트 비즈니스 모델·스폰서십 계약·수익구조 세부사항은 S2(확산·비즈니스) 절로 넘김.",
+       "doc_id": "crossfit_mayhem"
+      }
+     ],
+     "cited": [
+      "rich_froning_jr",
+      "crossfit_mayhem"
+     ],
+     "unread_cited": [],
+     "unknown_cited": [],
+     "chars": 832,
+     "reads_used": 3
+    }
+   ],
+   "merges": [],
+   "final": {
+    "round": 1,
+    "markdown": "리치 프로닝 주니어의 경력은 개인 선수로서의 절정기와 체육관 오너·운영자로서의 확장기가 교차하며 크로스핏 생태계의 상업화·팀 경쟁화·애필리에이트 중심 문화 성장을 단적으로 보여준다. 프로닝은 2011~2014년 개인부문에서 연속 우승을 차지하며 ‘지구에서 가장 건강한 남자(Fittest Man on Earth)’로 네 차례 선정되어 선수로서 정점을 찍었다[d:rich_froning_jr]. 2015년 개인 경쟁 은퇴 후 그는 자신이 2009년 아버지 헛간에서 시작한 CrossFit Mayhem에 합류해 팀을 이끌며 2015·2016·2018·2019·2021·2022년에 팀 우승을 거두어 팀 중심 경쟁의 전환을 상징했다[d:rich_froning_jr][d:crossfit_mayhem].\n\n프로닝은 선수 활동으로 1,050,000달러 이상의 상금과 리복·오클리·로그(Rogue Fitness) 같은 스폰서십을 확보했으며, 2015년 리복이 그의 참여로 설계된 신발을 출시하는 등 엘리트 선수의 상업적 역할을 확대했다[d:rich_froning_jr]. 또한 그는 CrossFit Mayhem을 2012년 도심 시설로 확장하고 2016년에 더 큰 장소로 이전하는 등 애필리에이트를 단순 훈련장이 아닌 팬·선수의 ‘성지’로 만든 운영자가 되었다[d:crossfit_mayhem].\n\n이 경력 전환은 선수 개인의 브랜드가 특정 애필리에이트를 집중화·상업화하는 경향, 개인 선수에서 팀 리더·오너로의 이동을 통한 경쟁의 조직화, 그리고 스폰서십·상품 협업·체육관 운영을 통한 수익 다각화라는 세 가지 변화를 반영한다[d:rich_froning_jr][d:crossfit_mayhem].",
+    "status": "sufficient",
+    "missing": "",
+    "handoffs": [
+     {
+      "section_id": "S3",
+      "note": "프로닝의 게임즈 성적을 크로스핏 게임즈 연혁·구조(오픈·지역·게임즈) 속에서 비교·맥락화하는 작업은 S3(대회·선수) 절로 넘겨야 함.",
+      "doc_id": "rich_froning_jr"
+     },
+     {
+      "section_id": "S2",
+      "note": "메이헴의 애필리에이트 비즈니스 모델·스폰서십 계약·수익구조 세부사항은 S2(확산·비즈니스) 절로 넘김.",
+      "doc_id": "crossfit_mayhem"
+     }
+    ],
+    "cited": [
+     "rich_froning_jr",
+     "crossfit_mayhem"
+    ],
+    "unread_cited": [],
+    "unknown_cited": [],
+    "chars": 832,
+    "reads_used": 3
+   },
+   "submit_rejections": 0,
+   "gate_rejections": 1
+  }
+ },
+ "started_at": "2026-11-06T16:57:15",
+ "plan": {
+  "rationale": "크로스핏의 탄생과 발전 과정은 기원·방법론, 비즈니스 확산, 대회·선수 성장, 안전 논쟁, 인접 시장 비교, 주요 인물 경력 추적 등 서로 다른 관점에서 병행 조사해야 전체를 파악하기 적합합니다. 자료 목록이 방대하고 한 문서에만 답이 모이지 않으므로 역할별로 시작 자료를 분배해 리서처들이 링크를 따라 확장하도록 설계했습니다.",
+  "sections": [
+   {
+    "id": "S1",
+    "role_name": "기원·방법론",
+    "title": "크로스핏의 창립과 운동 방법론(정의·철학·운동 기원)",
+    "role": "role: 크로스핏은 누가, 언제, 어떤 철학과 운동적 뿌리(예: HIIT·체조·역도 등)를 바탕으로 만들었나?",
+    "scope_in": "Greg Glassman·Lauren Jenai에 의한 창립, CrossFit의 정의·철학, 훈련 방식(상시 변화·기능적 움직임·고강도), HIIT·기능적 트레이닝·체조·역도·기본 운동(버피·풀업 등)과의 연결 고리.",
+    "scope_out": "대회 운영 세부(오픈·게임즈 연도별 이벤트), 사업적 제휴·라이선스(스폰서·Reebok 등), 선수 개별 전기(개별 선수는 인물 추적 파트 담당).",
+    "start_docs": [
+     "crossfit",
+     "functional_training",
+     "high_intensity_interval_training"
+    ],
+    "budget": 7
+   },
+   {
+    "id": "S2",
+    "role_name": "확산·비즈니스",
+    "title": "프랜차이즈·라이선스·브랜드 제휴와 상업적 확장",
+    "role": "role: 크로스핏은 어떤 비즈니스 모델(애필리에이트, 라이선스, 파트너십)과 제휴(신발·장비·투자)를 통해 확장했나?",
+    "scope_in": "크로스핏 애필리에이트(체육관) 모델, 브랜드 제휴 및 라이선스(예: Reebok ·Nobull), 장비업체·커뮤니티 기업(Rogue 등)과의 관계, 투자·소유권 변화(해당 자료가 있을 경우), 머천다이징·박스 수·자격증 제도(가능한 범위).",
+    "scope_out": "대회 규정·연도별 경기 이력(대회 파트 담당), 운동 방법론·훈련 프로그램의 기술적 상세(기원 파트 담당).",
+    "start_docs": [
+     "reebok",
+     "nobull",
+     "rogue_fitness"
+    ],
+    "budget": 6
+   },
+   {
+    "id": "S3",
+    "role_name": "대회·선수",
+    "title": "크로스핏 게임즈와 경쟁구조의 발전(오픈→예선→게임즈) 및 주요 선수들",
+    "role": "role: 크로스핏의 경쟁 구조(오픈·지역·게임즈)는 어떻게 발전했으며, 대회의 주요 전개(장소·규모 변화)와 눈에 띄는 선수·챔피언은 누구인가?",
+    "scope_in": "CrossFit Games의 연혁·구조(오픈, 예선, 지역, 게임즈), 대회 장소와 규모 변화(아로마스→카슨→매디슨 등), 대회 형식의 변화, 시대별 주요 우승자와 영향력 있는 선수(예: Rich Froning, Mat Fraser, Tia-Clair Toomey 등).",
+    "scope_out": "비즈니스·스폰서십의 재무적 세부(확산 파트 담당), 운동 방법론의 기술적 근거·부상 연구(안전 파트 담당).",
+    "start_docs": [
+     "crossfit_games",
+     "2007_crossfit_games",
+     "2010_crossfit_games"
+    ],
+    "budget": 6
+   },
+   {
+    "id": "S4",
+    "role_name": "안전·논쟁",
+    "title": "부상·건강 문제와 사회적 논란(과학적 근거 및 위기 사례)",
+    "role": "role: 크로스핏 관련 안전 문제(부상·횡문근융해증 등)와 이와 관련된 논쟁, 과학적 근거나 소송·비판 사례는 무엇인가?",
+    "scope_in": "횡문근융해증(rhabdomyolysis)과 같은 심각한 부작용 사례, 과훈련·과부하 관련 문제, 운동 강도와 안전성에 관한 일반적 연구·비판(오버트레이닝 관련), 사회적 논란과 위기 대응(가능한 범위).",
+    "scope_out": "대회별 경기 기록·챔피언 개별 이력(대회·선수 파트 담당), 크로스핏의 창립 철학·방법론의 세부 설명(기원 파트 담당).",
+    "start_docs": [
+     "rhabdomyolysis",
+     "overtraining"
+    ],
+    "budget": 5
+   },
+   {
+    "id": "S5",
+    "role_name": "인접 종목·시장",
+    "title": "크로스핏과 유사·대체되는 그룹 피트니스 비즈니스 비교",
+    "role": "role: Hyrox·F45·Orangetheory 등 다른 그룹 피트니스·경쟁형 피트니스 비즈니스는 크로스핏과 어떻게 다르고 어떤 시장적 관계가 있는가?",
+    "scope_in": "Hyrox·F45·Orangetheory의 사업모델·대회·프랜차이즈 구조·표준화 정도와 크로스핏 비교, 참가자 경험·상품(장비·의류)·시장 확장 전략의 차이점, 크로스핏이 시장에 미친 영향(대체·영향 사례).",
+    "scope_out": "크로스핏 내부의 역사적 세부(기원·대회 파트 담당) 및 개별 선수 전기(인물 파트 담당).",
+    "start_docs": [
+     "hyrox",
+     "f45_training",
+     "orangetheory_fitness"
+    ],
+    "budget": 5
+   },
+   {
+    "id": "S6",
+    "role_name": "인물 추적",
+    "title": "중심 인물 경력 추적: Rich Froning Jr. 사례로 본 크로스핏 생태계 변화",
+    "role": "role: Rich Froning Jr.의 경력(선수→운영자·체육관 오너 등)을 시계열로 따라가 크로스핏 생태계의 변화를 어떻게 반영하는가?",
+    "scope_in": "Rich Froning Jr.의 선수 경력(게임즈 성적), CrossFit Mayhem 창립과 확장, 그의 경력이 대회·트레이닝·비즈니스(아필리에이트 문화)에 준 영향 및 대표적 시점과 사건들.",
+    "scope_out": "크로스핏 전체 방법론의 이론적 기원(기원 파트 담당), 크로스핏과 경쟁 사업의 비교 분석(인접 종목 파트 담당).",
+    "start_docs": [
+     "rich_froning_jr",
+     "crossfit_mayhem"
+    ],
+    "budget": 5
+   }
+  ],
+  "warnings": []
+ },
+ "plan_source": "20261106-165417_Q4_full",
+ "plan_attempts": [],
+ "elapsed_sec": 66.7,
+ "plan_seen_chars_added": 94927,
+ "meters": {
+  "리서처 S1": {
+   "seen_chars": 58597,
+   "written_chars": 1485,
+   "prompt_tokens": 15830,
+   "completion_tokens": 1293,
+   "calls": 2
+  },
+  "리서처 S2": {
+   "seen_chars": 68619,
+   "written_chars": 5016,
+   "prompt_tokens": 100946,
+   "completion_tokens": 3349,
+   "calls": 7
+  },
+  "리서처 S3": {
+   "seen_chars": 41378,
+   "written_chars": 1814,
+   "prompt_tokens": 12902,
+   "completion_tokens": 1526,
+   "calls": 2
+  },
+  "리서처 S4": {
+   "seen_chars": 35247,
+   "written_chars": 856,
+   "prompt_tokens": 27955,
+   "completion_tokens": 1133,
+   "calls": 5
+  },
+  "리서처 S5": {
+   "seen_chars": 27038,
+   "written_chars": 1599,
+   "prompt_tokens": 29724,
+   "completion_tokens": 2009,
+   "calls": 6
+  },
+  "리서처 S6": {
+   "seen_chars": 14303,
+   "written_chars": 2547,
+   "prompt_tokens": 26561,
+   "completion_tokens": 2115,
+   "calls": 6
+  },
+  "코디네이터": {
+   "seen_chars": 101047,
+   "written_chars": 1563,
+   "prompt_tokens": 3647,
+   "completion_tokens": 954,
+   "calls": 1
+  }
+ },
+ "submit_rejections": 0,
+ "gate_rejections": 1,
+ "recheck": {
+  "enabled": true,
+  "rounds": [
+   {
+    "after_round": 0,
+    "todo": [
+     "S2"
+    ],
+    "given": {
+     "S2": 3
+    }
+   },
+   {
+    "after_round": 1,
+    "todo": [
+     "S2"
+    ],
+    "given": {
+     "S2": 3
+    }
+   },
+   {
+    "after_round": 2,
+    "todo": [
+     "S2"
+    ],
+    "given": {},
+    "stop": "바퀴 상한"
+   }
+  ],
+  "reserve_left": 0
+ },
+ "report": {
+  "markdown": "# 크로스핏의 기원과 확산: 역사·방법론·비즈니스·논란의 흐름\n\n이 보고서는 ‘크로스핏이 어떻게 탄생했고 어떤 과정을 거쳐 지금에 이르렀나’라는 질문에 답하기 위해 여러 절의 원고를 이어 붙여 정리한다. 각 절은 창립과 운동 방법론, 상업적 확장, 대회 구조와 선수사, 안전 논란, 유사 그룹 피트니스와의 비교, 대표 인물 경력 추적을 다룬다. 보고서는 각 절 원고의 흐름을 자연스럽게 잇는 연결문과 전체 요약을 포함한다.\n\n## 1. 크로스핏의 창립과 운동 방법론(정의·철학·운동 기원)\n\n*먼저 크로스핏의 창립 배경과 고유의 운동 방법론을 살펴본다.*\n\n크로스핏은 전형적인 체육관 프로그램이라기보다 ‘상시 변형된 기능적 움직임을 고강도로 수행’하는 훈련 철학으로 정의된다. 이 명제는 창립자 Greg Glassman(그렉 글래스먼)이 Lauren Jenai(로렌 제나이)와 함께 2000년 회사를 설립하고 2001년 산타크루즈 체육관을 열며 공표한 방법론에서 비롯되었다[1]. 글래스먼은 체조 배경의 운동선수였고 16세 때 체조적 움직임과 역도 요소를 결합한 첫 운동(예: 프랜)을 만들며 체조와 역도의 결합을 이론화했다[1].\n\n훈련 방식은 하루의 WOD(Workout of the Day)를 통해 매일 내용이 달라지며, 세 가지 모달리티—유산소/메트콘, 역도(중량), 체조(칼리스데닉스)—의 혼합으로 구성된다. 대표적 동작으로 줄넘기·로잉·런닝 등 메트콘, 스내치·클린앤저크·스쿼트·스러스터 등 역도형 동작, 풀업·머슬업·핸드스탠드 푸시업·로프클라임 등 체조형 동작이 포함된다[1]. 또한 운동을 처방대로 수행하면 \"Rx'd\"라 하고, 참가자 수준에 맞춰 반복수·무게·동작을 조정하는 \"스케일링\"을 허용한다[1].\n\n방법론의 뿌리는 크게 HIIT(고강도 인터벌 트레이닝), 기능적 트레이닝, 체조 및 올림픽식 역도에 있다. CrossFit은 짧고 고강도의 반복적 작업으로 무산소 에너지원의 큰 동원을 특징으로 하는 HIIT의 원리(최대·근최대 노력과 짧은 휴식)를 채택하고 있으며[2], 기능적 트레이닝의 일상 동작 재현·다관절성 원칙과도 일치한다[3]. 이처럼 크로스핏은 HIIT의 시간·강도 원리와 기능적·체조·역도의 기술적 요소를 통합해 ‘어떤 물리적 상황에도 대비하는 범용적 체력’을 목표로 한다[1].\n\n## 2. 프랜차이즈·라이선스·브랜드 제휴와 상업적 확장\n\n*다음으로 이러한 방법론이 현장에 퍼지며 형성된 상업적·프랜차이즈 체계와 브랜드 제휴의 확장 과정을 살펴본다.*\n\n크로스핏의 확산과 상업적 확장은 로컬 소유의 애필리에이트(박스) 모델과 글로벌 브랜드 제휴가 결합된 다층적 비즈니스 구조로 설명된다. 애필리에이트 체계는 지역 사업자가 박스를 운영하며 CrossFit의 교육·자격(예: 코치 레벨)과 커뮤니티 기반 머천다이징을 결합해 수익을 창출하는 분산형 프랜차이즈 유사 모델이다(박스 총수·수익 분배 비율은 시작 자료에 부재)[4][5].\n\n브랜드 제휴는 스폰서십·라이선스·공동제품개발 형태로 진행되었다. Reebok은 2010년 크로스핏과 10년 파트너십을 맺고 CrossFit Games 공식 의류·신발 파트너로서 Nano를 공동 개발해 문화를 소비재로 상업화했고, Games 상금·노출 확대에 기여했다[6][4]. Nobull은 크로스핏 출신 창업자가 설립해 2021–2023년 Games 타이틀 스폰서로 활동하며 프리미엄 의류·신발 시장을 공략했고, 2023년 이후 지분 변화와 전략적 투자로 소유구조가 재편되었다[7]. Rogue Fitness는 박스 장비 일괄 공급과 자체 제조로 박스 표준화를 주도하고 Games 장비·이벤트를 통한 수익 다각화를 실행했다[5].\n\n요약: 애필리에이트(로컬 박스) 모델 + 장비·의류 스폰서십(공동제품 개발 포함) + 장비 제조·이벤트 운영을 통한 수직·수평적 확장이 핵심이다. 다만 박스 수 총계, 애필리에이트의 구체적 수익분배(로열티·머천다이징·라이선스 수입 비중), 자격증 제도의 연혁별 매출 기여, 개별 스폰서십의 재무 조항(금액·계약기간 등)은 시작 자료에 없어 추가 문헌·계약서 검토가 필요하다.\n\n## 3. 크로스핏 게임즈와 경쟁구조의 발전(오픈→예선→게임즈) 및 주요 선수들\n\n*이제 상업적 확장과 함께 발전한 경쟁 무대인 크로스핏 게임즈의 구조 변화와 주요 선수들을 논의한다.*\n\n크로스핏 게임즈는 2007년 아로마스의 목장에서 시작된 이래 점진적으로 확장되어 오늘의 오픈→예선(Regionals/Sanctionals/세미파이널 등)→게임즈의 3단계(시기에 따라 4단계 체계 포함) 구조를 확립했다[4][8]. 초대 대회는 자격이 없었고 약 70명의 선수와 150명의 관중이 모였으며 세 종목으로 우승자를 가렸다[8]. 2010년 대회는 아로마스를 떠나 카슨의 홈디포 센터로 이전했고, 같은 해 섹셔널을 도입해 지역 예선을 통한 선발 체계를 만들었다[4][9]. 2011년에는 온라인 오픈이 도입되어 세계 최대의 참여형 스포츠 이벤트로 성장했으며, 이후 오픈→리전als(또는 섹셔널)→게임즈의 전통적 루트가 확립되었다[4]. 2015년 이후 리전als가 슈퍼리전als로 재편되고, 2019년에는 리전als를 폐지하고 산션널(Sanctionals)과 초청·오픈을 통한 복수 경로 자격제도가 도입되었다[4]. 2017년부터 2023년까지는 매디슨(올리언트 에너지 센터)에서 개최되었고, 2024년에는 포트워스, 2025년에는 올버니로 이동하며 2026년에는 산호세(SAP 센터)에서 20주년을 맞았다[4]. 경기 형식도 초창기 3개 이벤트에서 현재 통상 12–15개 이벤트로 늘어났고, 점수 체계와 참가자 수(최종 본선 30명 내외)는 여러 차례 개편되었다[4]. 눈에 띄는 선수로는 초창기 우승자 제임스 피츠제럴드(2007), 그해 우승자와 이후 등장한 그레이엄 홈버그(2010 우승) 등이 있고[8][9], 남자부에서는 리치 프로닝(4회 우승)과 매트 프레이저(5회 우승), 여자부에서는 티아-클레어 투미(8회 우승)가 게임즈 역사를 주도했다[4]. 코로나19와 안전 논란 등으로 2020–2024년의 예선·개최 방식이 크게 흔들렸고 온라인 예선·쿼터파이널 도입과 연도별 규정 변화가 이어졌다[4].\n\n## 4. 부상·건강 문제와 사회적 논란(과학적 근거 및 위기 사례)\n\n*다음으로는 고강도 특성에서 기인한 부상과 건강 문제, 관련 논쟁을 검토한다.*\n\n크로스핏 관련 안전 문제의 핵심은 고강도·반복적 훈련이 과도할 경우 발생할 수 있는 과훈련과 드물지만 심각한 횡문근융해증(rhabdomyolysis)이다. 과훈련은 회복능력을 초과한 훈련부하로 정의되며, 지속적 근육통·지속 피로·성능 저하·감염 취약성 등 다양한 증상을 초래한다[10].\n\n횡문근융해증은 골격근 붕괴로 근육통·무력감·홍차빛 소변·심전도 이상 등을 보이며, 근육 내 단백질(마이오글로빈)과 크레아틴키나아제 증가로 급성신손상을 일으킬 수 있다[11]. 진단은 혈중 CK>1000 U/L 기준이 권고되며, 중증은 5000–15000 U/L 이상으로 본다[11]. 치료는 대량의 정맥수액이 주축이며, 심한 경우 투석이 필요할 수 있다[11].\n\n크로스핏과 횡문근융해증의 연관성은 논쟁적이며 일부 보고에서 급증 가설이 제기됐으나, 관련 연구는 결론이 일치하지 않고 한 연구는 잘못된 수행·환경이 아니라면 심각한 위협은 아니라고 보고했다[10]. 따라서 과도한 강도·열악한 환경·복합 위험요인 존재 시 발생 위험이 커질 수 있음을 경계하고, 충분한 복구·점진적 적응·수분·감시가 예방의 핵심이다[10][11].\n\n## 5. 크로스핏과 유사·대체되는 그룹 피트니스 비즈니스 비교\n\n*이어서 크로스핏과 유사하거나 대체 가능한 그룹 피트니스 비즈니스 모델들과의 비교를 제시한다.*\n\n하이록스(Hyrox), F45, 오렌지띠어리(Orangetheory)는 모두 ‘표준화된 그룹 피트니스 경험’을 상품화하고 확장한 점에서 크로스핏과 시장적으로 중첩하지만 각기 다른 전략을 취한다. 하이록스는 8×(1km 달리기+기능성 스테이션)으로 구성된 표준화된 경기 형식을 전세계 동일 플랫폼으로 운영해 글로벌 리더보드와 월드챔피언십을 가능하게 했다; 대회 개최와 연계한 제휴 체육관·성능 아카데미 등으로 에코시스템을 확장한다 [12][12]. F45는 45분짜리 HIIT·서킷형 프로그램을 일관된 클래스 포맷으로 프랜차이즈해 빠르게 스튜디오 수를 확장(약 1,600개 스튜디오)하고 컬래버·투자(마크 왈버그 등)를 통해 브랜드 가치를 키웠다; 사업 리스크(상장·재무·경영 변동)도 경험했다 [13]. 오렌지띠어리는 1시간 분량의 스테이션 순환 수업과 심박수 기반 ‘스플랫 포인트’ 등 테크 기반의 회원 경험·성과 피드백을 표준화하고, 대규모 프랜차이즈와 합병으로 규모화를 추진했다 [14].\n\n참가자 경험 면에서 하이록스는 ‘대회형’ 참여(실전 레이스·글로벌 비교)를, F45는 짧고 강도 높은 일상적 그룹수업을, 오렌지띠어리는 심박수 가시화와 코칭 중심의 시간제 클래스를 제공한다 [12][13][14]. 장비·머천다이즈 측면에서는 하이록스는 레이싱 특화 장비(SkiErg·로잉·썰매 등)를 규격화해 레이스 일관성을 확보하고, F45와 오티에프는 소규모 스튜디오용 장비와 모니터링 기기를 중심으로 표준화한다 [12][13][14].\n\n시장 확장 전략은 하이록스가 이벤트·월드챔피언십 중심으로 글로벌 비교 가능성을 강조하는 반면, F45와 오렌지띠어리는 프랜차이즈·스튜디오 네트워크 확장과 브랜드-테크 결합으로 멤버십·재방문을 유도한다 [12][13][14]. 크로스핏이 대중화한 ‘기능성·고강도’ 수요는 이들 모델에 수요 기반과 트레이닝 채널(예: 하이록스가 크로스핏 박스에서 훈련)을 제공했고, 표준화·프랜차이즈화라는 방향에 영향을 미쳤다[12].\n\n## 6. 중심 인물 경력 추적: Rich Froning Jr. 사례로 본 크로스핏 생태계 변화\n\n*마지막으로 대표적 선수 사례를 통해 크로스핏 생태계의 변화 양상을 추적한다.*\n\n리치 프로닝 주니어의 경력은 개인 선수로서의 절정기와 체육관 오너·운영자로서의 확장기가 교차하며 크로스핏 생태계의 상업화·팀 경쟁화·애필리에이트 중심 문화 성장을 단적으로 보여준다. 프로닝은 2011~2014년 개인부문에서 연속 우승을 차지하며 ‘지구에서 가장 건강한 남자(Fittest Man on Earth)’로 네 차례 선정되어 선수로서 정점을 찍었다[15]. 2015년 개인 경쟁 은퇴 후 그는 자신이 2009년 아버지 헛간에서 시작한 CrossFit Mayhem에 합류해 팀을 이끌며 2015·2016·2018·2019·2021·2022년에 팀 우승을 거두어 팀 중심 경쟁의 전환을 상징했다[15][16].\n\n프로닝은 선수 활동으로 1,050,000달러 이상의 상금과 리복·오클리·로그(Rogue Fitness) 같은 스폰서십을 확보했으며, 2015년 리복이 그의 참여로 설계된 신발을 출시하는 등 엘리트 선수의 상업적 역할을 확대했다[15]. 또한 그는 CrossFit Mayhem을 2012년 도심 시설로 확장하고 2016년에 더 큰 장소로 이전하는 등 애필리에이트를 단순 훈련장이 아닌 팬·선수의 ‘성지’로 만든 운영자가 되었다[16].\n\n이 경력 전환은 선수 개인의 브랜드가 특정 애필리에이트를 집중화·상업화하는 경향, 개인 선수에서 팀 리더·오너로의 이동을 통한 경쟁의 조직화, 그리고 스폰서십·상품 협업·체육관 운영을 통한 수익 다각화라는 세 가지 변화를 반영한다[15][16].\n\n## 맺음말\n\n크로스핏은 Greg Glassman과 Lauren Jenai가 2000년 회사를 설립하고 2001년 산타크루즈 체육관을 열며 공표한 ‘상시 변형된 기능적 움직임을 고강도로 수행’하는 훈련 철학에서 출발했다[1]. 방법론은 매일 바뀌는 WOD와 유산소·역도·체조의 혼합, 그리고 스케일링 개념을 포함하며 HIIT·기능적 트레이닝·체조·올림픽식 역도 등의 요소를 통합해 ‘범용적 체력’을 지향한다[1][2][3]. 상업적 확장은 로컬 애필리에이트(박스) 모델과 Reebok·Nobull·Rogue 같은 브랜드 제휴 및 장비·이벤트 중심의 확장으로 이루어졌고[4][6][7][5], 크로스핏 게임즈는 오픈→예선→게임즈의 다단계 자격체계와 지속적인 대회 형식 변화를 거치며 엘리트 경쟁 구조를 발달시켰다[4][8][9]. 동시에 고강도 훈련에 따른 과훈련과 횡문근융해증 등 건강 위험이 논의되었고, 진단·예방·치료와 관련한 의학적 권고와 연구 결과들이 제기되었다[10][11]. 리치 프로닝 등 주요 인물들의 경력 전환은 선수 브랜드화·애필리에이트 중심의 상업화·팀 경쟁화라는 생태계 변화를 상징한다[15][16].\n\n## 참고문헌\n[1] CrossFit — English Wikipedia. https://en.wikipedia.org/wiki/CrossFit  (읽은 쪽: S1 / 인용한 절: S1)\n[2] High-intensity interval training — English Wikipedia. https://en.wikipedia.org/wiki/High-intensity_interval_training  (읽은 쪽: S1 / 인용한 절: S1)\n[3] Functional training — English Wikipedia. https://en.wikipedia.org/wiki/Functional_training  (읽은 쪽: S1 / 인용한 절: S1)\n[4] CrossFit Games — English Wikipedia. https://en.wikipedia.org/wiki/CrossFit_Games  (읽은 쪽: S2, S3 / 인용한 절: S2, S3)\n[5] Rogue Fitness — English Wikipedia. https://en.wikipedia.org/wiki/Rogue_Fitness  (읽은 쪽: S2 / 인용한 절: S2)\n[6] Reebok — English Wikipedia. https://en.wikipedia.org/wiki/Reebok  (읽은 쪽: S2 / 인용한 절: S2)\n[7] Nobull — English Wikipedia. https://en.wikipedia.org/wiki/Nobull  (읽은 쪽: S2 / 인용한 절: S2)\n[8] 2007 CrossFit Games — English Wikipedia. https://en.wikipedia.org/wiki/2007_CrossFit_Games  (읽은 쪽: S3 / 인용한 절: S3)\n[9] 2010 CrossFit Games — English Wikipedia. https://en.wikipedia.org/wiki/2010_CrossFit_Games  (읽은 쪽: S3 / 인용한 절: S3)\n[10] Overtraining — English Wikipedia. https://en.wikipedia.org/wiki/Overtraining  (읽은 쪽: S4 / 인용한 절: S4)\n[11] Rhabdomyolysis — English Wikipedia. https://en.wikipedia.org/wiki/Rhabdomyolysis  (읽은 쪽: S4 / 인용한 절: S4)\n[12] Hyrox — English Wikipedia. https://en.wikipedia.org/wiki/Hyrox  (읽은 쪽: S5 / 인용한 절: S5)\n[13] F45 Training — English Wikipedia. https://en.wikipedia.org/wiki/F45_Training  (읽은 쪽: S5 / 인용한 절: S5)\n[14] Orangetheory Fitness — English Wikipedia. https://en.wikipedia.org/wiki/Orangetheory_Fitness  (읽은 쪽: S5 / 인용한 절: S5)\n[15] Rich Froning Jr. — English Wikipedia. https://en.wikipedia.org/wiki/Rich_Froning_Jr.  (읽은 쪽: S6 / 인용한 절: S6)\n[16] CrossFit Mayhem — English Wikipedia. https://en.wikipedia.org/wiki/CrossFit_Mayhem  (읽은 쪽: S6 / 인용한 절: S6)\n",
+  "markdown_d": "# 크로스핏의 기원과 확산: 역사·방법론·비즈니스·논란의 흐름\n\n이 보고서는 ‘크로스핏이 어떻게 탄생했고 어떤 과정을 거쳐 지금에 이르렀나’라는 질문에 답하기 위해 여러 절의 원고를 이어 붙여 정리한다. 각 절은 창립과 운동 방법론, 상업적 확장, 대회 구조와 선수사, 안전 논란, 유사 그룹 피트니스와의 비교, 대표 인물 경력 추적을 다룬다. 보고서는 각 절 원고의 흐름을 자연스럽게 잇는 연결문과 전체 요약을 포함한다.\n\n## 1. 크로스핏의 창립과 운동 방법론(정의·철학·운동 기원)\n\n*먼저 크로스핏의 창립 배경과 고유의 운동 방법론을 살펴본다.*\n\n크로스핏은 전형적인 체육관 프로그램이라기보다 ‘상시 변형된 기능적 움직임을 고강도로 수행’하는 훈련 철학으로 정의된다. 이 명제는 창립자 Greg Glassman(그렉 글래스먼)이 Lauren Jenai(로렌 제나이)와 함께 2000년 회사를 설립하고 2001년 산타크루즈 체육관을 열며 공표한 방법론에서 비롯되었다[d:crossfit]. 글래스먼은 체조 배경의 운동선수였고 16세 때 체조적 움직임과 역도 요소를 결합한 첫 운동(예: 프랜)을 만들며 체조와 역도의 결합을 이론화했다[d:crossfit].\n\n훈련 방식은 하루의 WOD(Workout of the Day)를 통해 매일 내용이 달라지며, 세 가지 모달리티—유산소/메트콘, 역도(중량), 체조(칼리스데닉스)—의 혼합으로 구성된다. 대표적 동작으로 줄넘기·로잉·런닝 등 메트콘, 스내치·클린앤저크·스쿼트·스러스터 등 역도형 동작, 풀업·머슬업·핸드스탠드 푸시업·로프클라임 등 체조형 동작이 포함된다[d:crossfit]. 또한 운동을 처방대로 수행하면 \"Rx'd\"라 하고, 참가자 수준에 맞춰 반복수·무게·동작을 조정하는 \"스케일링\"을 허용한다[d:crossfit].\n\n방법론의 뿌리는 크게 HIIT(고강도 인터벌 트레이닝), 기능적 트레이닝, 체조 및 올림픽식 역도에 있다. CrossFit은 짧고 고강도의 반복적 작업으로 무산소 에너지원의 큰 동원을 특징으로 하는 HIIT의 원리(최대·근최대 노력과 짧은 휴식)를 채택하고 있으며[d:high_intensity_interval_training], 기능적 트레이닝의 일상 동작 재현·다관절성 원칙과도 일치한다[d:functional_training]. 이처럼 크로스핏은 HIIT의 시간·강도 원리와 기능적·체조·역도의 기술적 요소를 통합해 ‘어떤 물리적 상황에도 대비하는 범용적 체력’을 목표로 한다[d:crossfit].\n\n## 2. 프랜차이즈·라이선스·브랜드 제휴와 상업적 확장\n\n*다음으로 이러한 방법론이 현장에 퍼지며 형성된 상업적·프랜차이즈 체계와 브랜드 제휴의 확장 과정을 살펴본다.*\n\n크로스핏의 확산과 상업적 확장은 로컬 소유의 애필리에이트(박스) 모델과 글로벌 브랜드 제휴가 결합된 다층적 비즈니스 구조로 설명된다. 애필리에이트 체계는 지역 사업자가 박스를 운영하며 CrossFit의 교육·자격(예: 코치 레벨)과 커뮤니티 기반 머천다이징을 결합해 수익을 창출하는 분산형 프랜차이즈 유사 모델이다(박스 총수·수익 분배 비율은 시작 자료에 부재)[d:crossfit_games][d:rogue_fitness].\n\n브랜드 제휴는 스폰서십·라이선스·공동제품개발 형태로 진행되었다. Reebok은 2010년 크로스핏과 10년 파트너십을 맺고 CrossFit Games 공식 의류·신발 파트너로서 Nano를 공동 개발해 문화를 소비재로 상업화했고, Games 상금·노출 확대에 기여했다[d:reebok][d:crossfit_games]. Nobull은 크로스핏 출신 창업자가 설립해 2021–2023년 Games 타이틀 스폰서로 활동하며 프리미엄 의류·신발 시장을 공략했고, 2023년 이후 지분 변화와 전략적 투자로 소유구조가 재편되었다[d:nobull]. Rogue Fitness는 박스 장비 일괄 공급과 자체 제조로 박스 표준화를 주도하고 Games 장비·이벤트를 통한 수익 다각화를 실행했다[d:rogue_fitness].\n\n요약: 애필리에이트(로컬 박스) 모델 + 장비·의류 스폰서십(공동제품 개발 포함) + 장비 제조·이벤트 운영을 통한 수직·수평적 확장이 핵심이다. 다만 박스 수 총계, 애필리에이트의 구체적 수익분배(로열티·머천다이징·라이선스 수입 비중), 자격증 제도의 연혁별 매출 기여, 개별 스폰서십의 재무 조항(금액·계약기간 등)은 시작 자료에 없어 추가 문헌·계약서 검토가 필요하다.\n\n## 3. 크로스핏 게임즈와 경쟁구조의 발전(오픈→예선→게임즈) 및 주요 선수들\n\n*이제 상업적 확장과 함께 발전한 경쟁 무대인 크로스핏 게임즈의 구조 변화와 주요 선수들을 논의한다.*\n\n크로스핏 게임즈는 2007년 아로마스의 목장에서 시작된 이래 점진적으로 확장되어 오늘의 오픈→예선(Regionals/Sanctionals/세미파이널 등)→게임즈의 3단계(시기에 따라 4단계 체계 포함) 구조를 확립했다[d:crossfit_games][d:2007_crossfit_games]. 초대 대회는 자격이 없었고 약 70명의 선수와 150명의 관중이 모였으며 세 종목으로 우승자를 가렸다[d:2007_crossfit_games]. 2010년 대회는 아로마스를 떠나 카슨의 홈디포 센터로 이전했고, 같은 해 섹셔널을 도입해 지역 예선을 통한 선발 체계를 만들었다[d:crossfit_games][d:2010_crossfit_games]. 2011년에는 온라인 오픈이 도입되어 세계 최대의 참여형 스포츠 이벤트로 성장했으며, 이후 오픈→리전als(또는 섹셔널)→게임즈의 전통적 루트가 확립되었다[d:crossfit_games]. 2015년 이후 리전als가 슈퍼리전als로 재편되고, 2019년에는 리전als를 폐지하고 산션널(Sanctionals)과 초청·오픈을 통한 복수 경로 자격제도가 도입되었다[d:crossfit_games]. 2017년부터 2023년까지는 매디슨(올리언트 에너지 센터)에서 개최되었고, 2024년에는 포트워스, 2025년에는 올버니로 이동하며 2026년에는 산호세(SAP 센터)에서 20주년을 맞았다[d:crossfit_games]. 경기 형식도 초창기 3개 이벤트에서 현재 통상 12–15개 이벤트로 늘어났고, 점수 체계와 참가자 수(최종 본선 30명 내외)는 여러 차례 개편되었다[d:crossfit_games]. 눈에 띄는 선수로는 초창기 우승자 제임스 피츠제럴드(2007), 그해 우승자와 이후 등장한 그레이엄 홈버그(2010 우승) 등이 있고[d:2007_crossfit_games][d:2010_crossfit_games], 남자부에서는 리치 프로닝(4회 우승)과 매트 프레이저(5회 우승), 여자부에서는 티아-클레어 투미(8회 우승)가 게임즈 역사를 주도했다[d:crossfit_games]. 코로나19와 안전 논란 등으로 2020–2024년의 예선·개최 방식이 크게 흔들렸고 온라인 예선·쿼터파이널 도입과 연도별 규정 변화가 이어졌다[d:crossfit_games].\n\n## 4. 부상·건강 문제와 사회적 논란(과학적 근거 및 위기 사례)\n\n*다음으로는 고강도 특성에서 기인한 부상과 건강 문제, 관련 논쟁을 검토한다.*\n\n크로스핏 관련 안전 문제의 핵심은 고강도·반복적 훈련이 과도할 경우 발생할 수 있는 과훈련과 드물지만 심각한 횡문근융해증(rhabdomyolysis)이다. 과훈련은 회복능력을 초과한 훈련부하로 정의되며, 지속적 근육통·지속 피로·성능 저하·감염 취약성 등 다양한 증상을 초래한다[d:overtraining].\n\n횡문근융해증은 골격근 붕괴로 근육통·무력감·홍차빛 소변·심전도 이상 등을 보이며, 근육 내 단백질(마이오글로빈)과 크레아틴키나아제 증가로 급성신손상을 일으킬 수 있다[d:rhabdomyolysis]. 진단은 혈중 CK>1000 U/L 기준이 권고되며, 중증은 5000–15000 U/L 이상으로 본다[d:rhabdomyolysis]. 치료는 대량의 정맥수액이 주축이며, 심한 경우 투석이 필요할 수 있다[d:rhabdomyolysis].\n\n크로스핏과 횡문근융해증의 연관성은 논쟁적이며 일부 보고에서 급증 가설이 제기됐으나, 관련 연구는 결론이 일치하지 않고 한 연구는 잘못된 수행·환경이 아니라면 심각한 위협은 아니라고 보고했다[d:overtraining]. 따라서 과도한 강도·열악한 환경·복합 위험요인 존재 시 발생 위험이 커질 수 있음을 경계하고, 충분한 복구·점진적 적응·수분·감시가 예방의 핵심이다[d:overtraining][d:rhabdomyolysis].\n\n## 5. 크로스핏과 유사·대체되는 그룹 피트니스 비즈니스 비교\n\n*이어서 크로스핏과 유사하거나 대체 가능한 그룹 피트니스 비즈니스 모델들과의 비교를 제시한다.*\n\n하이록스(Hyrox), F45, 오렌지띠어리(Orangetheory)는 모두 ‘표준화된 그룹 피트니스 경험’을 상품화하고 확장한 점에서 크로스핏과 시장적으로 중첩하지만 각기 다른 전략을 취한다. 하이록스는 8×(1km 달리기+기능성 스테이션)으로 구성된 표준화된 경기 형식을 전세계 동일 플랫폼으로 운영해 글로벌 리더보드와 월드챔피언십을 가능하게 했다; 대회 개최와 연계한 제휴 체육관·성능 아카데미 등으로 에코시스템을 확장한다 [d:hyrox][d:hyrox]. F45는 45분짜리 HIIT·서킷형 프로그램을 일관된 클래스 포맷으로 프랜차이즈해 빠르게 스튜디오 수를 확장(약 1,600개 스튜디오)하고 컬래버·투자(마크 왈버그 등)를 통해 브랜드 가치를 키웠다; 사업 리스크(상장·재무·경영 변동)도 경험했다 [d:f45_training]. 오렌지띠어리는 1시간 분량의 스테이션 순환 수업과 심박수 기반 ‘스플랫 포인트’ 등 테크 기반의 회원 경험·성과 피드백을 표준화하고, 대규모 프랜차이즈와 합병으로 규모화를 추진했다 [d:orangetheory_fitness].\n\n참가자 경험 면에서 하이록스는 ‘대회형’ 참여(실전 레이스·글로벌 비교)를, F45는 짧고 강도 높은 일상적 그룹수업을, 오렌지띠어리는 심박수 가시화와 코칭 중심의 시간제 클래스를 제공한다 [d:hyrox][d:f45_training][d:orangetheory_fitness]. 장비·머천다이즈 측면에서는 하이록스는 레이싱 특화 장비(SkiErg·로잉·썰매 등)를 규격화해 레이스 일관성을 확보하고, F45와 오티에프는 소규모 스튜디오용 장비와 모니터링 기기를 중심으로 표준화한다 [d:hyrox][d:f45_training][d:orangetheory_fitness].\n\n시장 확장 전략은 하이록스가 이벤트·월드챔피언십 중심으로 글로벌 비교 가능성을 강조하는 반면, F45와 오렌지띠어리는 프랜차이즈·스튜디오 네트워크 확장과 브랜드-테크 결합으로 멤버십·재방문을 유도한다 [d:hyrox][d:f45_training][d:orangetheory_fitness]. 크로스핏이 대중화한 ‘기능성·고강도’ 수요는 이들 모델에 수요 기반과 트레이닝 채널(예: 하이록스가 크로스핏 박스에서 훈련)을 제공했고, 표준화·프랜차이즈화라는 방향에 영향을 미쳤다[d:hyrox].\n\n## 6. 중심 인물 경력 추적: Rich Froning Jr. 사례로 본 크로스핏 생태계 변화\n\n*마지막으로 대표적 선수 사례를 통해 크로스핏 생태계의 변화 양상을 추적한다.*\n\n리치 프로닝 주니어의 경력은 개인 선수로서의 절정기와 체육관 오너·운영자로서의 확장기가 교차하며 크로스핏 생태계의 상업화·팀 경쟁화·애필리에이트 중심 문화 성장을 단적으로 보여준다. 프로닝은 2011~2014년 개인부문에서 연속 우승을 차지하며 ‘지구에서 가장 건강한 남자(Fittest Man on Earth)’로 네 차례 선정되어 선수로서 정점을 찍었다[d:rich_froning_jr]. 2015년 개인 경쟁 은퇴 후 그는 자신이 2009년 아버지 헛간에서 시작한 CrossFit Mayhem에 합류해 팀을 이끌며 2015·2016·2018·2019·2021·2022년에 팀 우승을 거두어 팀 중심 경쟁의 전환을 상징했다[d:rich_froning_jr][d:crossfit_mayhem].\n\n프로닝은 선수 활동으로 1,050,000달러 이상의 상금과 리복·오클리·로그(Rogue Fitness) 같은 스폰서십을 확보했으며, 2015년 리복이 그의 참여로 설계된 신발을 출시하는 등 엘리트 선수의 상업적 역할을 확대했다[d:rich_froning_jr]. 또한 그는 CrossFit Mayhem을 2012년 도심 시설로 확장하고 2016년에 더 큰 장소로 이전하는 등 애필리에이트를 단순 훈련장이 아닌 팬·선수의 ‘성지’로 만든 운영자가 되었다[d:crossfit_mayhem].\n\n이 경력 전환은 선수 개인의 브랜드가 특정 애필리에이트를 집중화·상업화하는 경향, 개인 선수에서 팀 리더·오너로의 이동을 통한 경쟁의 조직화, 그리고 스폰서십·상품 협업·체육관 운영을 통한 수익 다각화라는 세 가지 변화를 반영한다[d:rich_froning_jr][d:crossfit_mayhem].\n\n## 맺음말\n\n크로스핏은 Greg Glassman과 Lauren Jenai가 2000년 회사를 설립하고 2001년 산타크루즈 체육관을 열며 공표한 ‘상시 변형된 기능적 움직임을 고강도로 수행’하는 훈련 철학에서 출발했다[d:crossfit]. 방법론은 매일 바뀌는 WOD와 유산소·역도·체조의 혼합, 그리고 스케일링 개념을 포함하며 HIIT·기능적 트레이닝·체조·올림픽식 역도 등의 요소를 통합해 ‘범용적 체력’을 지향한다[d:crossfit][d:high_intensity_interval_training][d:functional_training]. 상업적 확장은 로컬 애필리에이트(박스) 모델과 Reebok·Nobull·Rogue 같은 브랜드 제휴 및 장비·이벤트 중심의 확장으로 이루어졌고[d:crossfit_games][d:reebok][d:nobull][d:rogue_fitness], 크로스핏 게임즈는 오픈→예선→게임즈의 다단계 자격체계와 지속적인 대회 형식 변화를 거치며 엘리트 경쟁 구조를 발달시켰다[d:crossfit_games][d:2007_crossfit_games][d:2010_crossfit_games]. 동시에 고강도 훈련에 따른 과훈련과 횡문근융해증 등 건강 위험이 논의되었고, 진단·예방·치료와 관련한 의학적 권고와 연구 결과들이 제기되었다[d:overtraining][d:rhabdomyolysis]. 리치 프로닝 등 주요 인물들의 경력 전환은 선수 브랜드화·애필리에이트 중심의 상업화·팀 경쟁화라는 생태계 변화를 상징한다[d:rich_froning_jr][d:crossfit_mayhem].",
+  "conclusion_d": "크로스핏은 Greg Glassman과 Lauren Jenai가 2000년 회사를 설립하고 2001년 산타크루즈 체육관을 열며 공표한 ‘상시 변형된 기능적 움직임을 고강도로 수행’하는 훈련 철학에서 출발했다[d:crossfit]. 방법론은 매일 바뀌는 WOD와 유산소·역도·체조의 혼합, 그리고 스케일링 개념을 포함하며 HIIT·기능적 트레이닝·체조·올림픽식 역도 등의 요소를 통합해 ‘범용적 체력’을 지향한다[d:crossfit][d:high_intensity_interval_training][d:functional_training]. 상업적 확장은 로컬 애필리에이트(박스) 모델과 Reebok·Nobull·Rogue 같은 브랜드 제휴 및 장비·이벤트 중심의 확장으로 이루어졌고[d:crossfit_games][d:reebok][d:nobull][d:rogue_fitness], 크로스핏 게임즈는 오픈→예선→게임즈의 다단계 자격체계와 지속적인 대회 형식 변화를 거치며 엘리트 경쟁 구조를 발달시켰다[d:crossfit_games][d:2007_crossfit_games][d:2010_crossfit_games]. 동시에 고강도 훈련에 따른 과훈련과 횡문근융해증 등 건강 위험이 논의되었고, 진단·예방·치료와 관련한 의학적 권고와 연구 결과들이 제기되었다[d:overtraining][d:rhabdomyolysis]. 리치 프로닝 등 주요 인물들의 경력 전환은 선수 브랜드화·애필리에이트 중심의 상업화·팀 경쟁화라는 생태계 변화를 상징한다[d:rich_froning_jr][d:crossfit_mayhem].",
+  "numbering": {
+   "crossfit": 1,
+   "high_intensity_interval_training": 2,
+   "functional_training": 3,
+   "crossfit_games": 4,
+   "rogue_fitness": 5,
+   "reebok": 6,
+   "nobull": 7,
+   "2007_crossfit_games": 8,
+   "2010_crossfit_games": 9,
+   "overtraining": 10,
+   "rhabdomyolysis": 11,
+   "hyrox": 12,
+   "f45_training": 13,
+   "orangetheory_fitness": 14,
+   "rich_froning_jr": 15,
+   "crossfit_mayhem": 16
+  },
+  "frame": {
+   "title": "크로스핏의 기원과 확산: 역사·방법론·비즈니스·논란의 흐름",
+   "intro": "이 보고서는 ‘크로스핏이 어떻게 탄생했고 어떤 과정을 거쳐 지금에 이르렀나’라는 질문에 답하기 위해 여러 절의 원고를 이어 붙여 정리한다. 각 절은 창립과 운동 방법론, 상업적 확장, 대회 구조와 선수사, 안전 논란, 유사 그룹 피트니스와의 비교, 대표 인물 경력 추적을 다룬다. 보고서는 각 절 원고의 흐름을 자연스럽게 잇는 연결문과 전체 요약을 포함한다.",
+   "transitions": [
+    {
+     "section_id": "S1",
+     "sentence": "먼저 크로스핏의 창립 배경과 고유의 운동 방법론을 살펴본다."
+    },
+    {
+     "section_id": "S2",
+     "sentence": "다음으로 이러한 방법론이 현장에 퍼지며 형성된 상업적·프랜차이즈 체계와 브랜드 제휴의 확장 과정을 살펴본다."
+    },
+    {
+     "section_id": "S3",
+     "sentence": "이제 상업적 확장과 함께 발전한 경쟁 무대인 크로스핏 게임즈의 구조 변화와 주요 선수들을 논의한다."
+    },
+    {
+     "section_id": "S4",
+     "sentence": "다음으로는 고강도 특성에서 기인한 부상과 건강 문제, 관련 논쟁을 검토한다."
+    },
+    {
+     "section_id": "S5",
+     "sentence": "이어서 크로스핏과 유사하거나 대체 가능한 그룹 피트니스 비즈니스 모델들과의 비교를 제시한다."
+    },
+    {
+     "section_id": "S6",
+     "sentence": "마지막으로 대표적 선수 사례를 통해 크로스핏 생태계의 변화 양상을 추적한다."
+    }
+   ],
+   "conclusion": "크로스핏은 Greg Glassman과 Lauren Jenai가 2000년 회사를 설립하고 2001년 산타크루즈 체육관을 열며 공표한 ‘상시 변형된 기능적 움직임을 고강도로 수행’하는 훈련 철학에서 출발했다[d:crossfit]. 방법론은 매일 바뀌는 WOD와 유산소·역도·체조의 혼합, 그리고 스케일링 개념을 포함하며 HIIT·기능적 트레이닝·체조·올림픽식 역도 등의 요소를 통합해 ‘범용적 체력’을 지향한다[d:crossfit][d:high_intensity_interval_training][d:functional_training]. 상업적 확장은 로컬 애필리에이트(박스) 모델과 Reebok·Nobull·Rogue 같은 브랜드 제휴 및 장비·이벤트 중심의 확장으로 이루어졌고[d:crossfit_games][d:reebok][d:nobull][d:rogue_fitness], 크로스핏 게임즈는 오픈→예선→게임즈의 다단계 자격체계와 지속적인 대회 형식 변화를 거치며 엘리트 경쟁 구조를 발달시켰다[d:crossfit_games][d:2007_crossfit_games][d:2010_crossfit_games]. 동시에 고강도 훈련에 따른 과훈련과 횡문근융해증 등 건강 위험이 논의되었고, 진단·예방·치료와 관련한 의학적 권고와 연구 결과들이 제기되었다[d:overtraining][d:rhabdomyolysis]. 리치 프로닝 등 주요 인물들의 경력 전환은 선수 브랜드화·애필리에이트 중심의 상업화·팀 경쟁화라는 생태계 변화를 상징한다[d:rich_froning_jr][d:crossfit_mayhem]."
+  }
+ },
+ "metrics": {
+  "rows": [
+   {
+    "key": "budget_use",
+    "label": "예산 소진율",
+    "kind": "signal",
+    "device": "예산 배분 · 대조군 공정성",
+    "desc": "전체 읽기 예산 중 실제로 읽은 비율",
+    "value": 0.7
+   },
+   {
+    "key": "unique_docs_read",
+    "label": "읽은 문서 수",
+    "kind": "signal",
+    "device": "탐색 (시작 자료·links)",
+    "desc": "한 번 이상 연 서로 다른 문서 수",
+    "value": 17
+   },
+   {
+    "key": "link_hop_share",
+    "label": "시작 자료 밖 탐색 비율",
+    "kind": "signal",
+    "device": "탐색 (links)",
+    "desc": "읽은 문서 중 시작 자료가 아니라 링크를 따라가(OFF면 검색해) 연 문서의 비율",
+    "value": 0.111
+   },
+   {
+    "key": "read_overlap",
+    "label": "절 간 읽기 겹침",
+    "kind": "signal",
+    "device": "남의 구역 알림 · 목차 분할",
+    "desc": "절끼리 읽은 문서 집합이 겹치는 정도(쌍별 자카드 평균, 낮을수록 잘 갈림)",
+    "value": 0.011
+   },
+   {
+    "key": "cited_docs",
+    "label": "인용된 문서 수",
+    "kind": "signal",
+    "device": "원고 규칙 (리서처)",
+    "desc": "최종 보고서에 인용된 서로 다른 문서 수",
+    "value": 16
+   },
+   {
+    "key": "cite_density",
+    "label": "인용 밀도",
+    "kind": "signal",
+    "device": "원고 규칙 (리서처)",
+    "desc": "본문 1,000자당 인용 표시 수",
+    "value": 9.69
+   },
+   {
+    "key": "read_uncited_share",
+    "label": "읽고 안 쓴 비율",
+    "kind": "signal",
+    "device": "예산 효율",
+    "desc": "읽었지만 어디에도 인용하지 않은 문서의 비율",
+    "value": 0.059
+   },
+   {
+    "key": "year_grounding",
+    "label": "연도 원문 일치율",
+    "kind": "signal",
+    "device": "원문 대조 (리서처 정확성)",
+    "desc": "인용 붙은 문장의 연도 중 인용 문서 원문에 실제로 나오는 비율",
+    "value": 1.0
+   },
+   {
+    "key": "coordinator_seen_ratio",
+    "label": "코디네이터가 본 비율",
+    "kind": "signal",
+    "device": "격리 (분업 구조)",
+    "desc": "코디네이터가 받은 글자 수 ÷ 자료 전체 글자 수",
+    "value": 0.0489
+   },
+   {
+    "key": "max_agent_seen_ratio",
+    "label": "최대 에이전트가 본 비율",
+    "kind": "signal",
+    "device": "격리 (분업 구조)",
+    "desc": "가장 많이 받은 에이전트의 글자 수 ÷ 자료 전체 글자 수",
+    "value": 0.0332
+   },
+   {
+    "key": "insufficient_first",
+    "label": "1차 부족 신고",
+    "kind": "signal",
+    "device": "점검·재파견",
+    "desc": "1차 원고에서 스스로 '부족'이라 신고한 절 수",
+    "value": 1
+   },
+   {
+    "key": "resolved_after_recheck",
+    "label": "재파견 후 해결",
+    "kind": "signal",
+    "device": "점검·재파견",
+    "desc": "재파견 뒤 '충분'으로 바뀐 절 수",
+    "value": 0
+   },
+   {
+    "key": "plan_retries",
+    "label": "목차 재작성",
+    "kind": "signal",
+    "device": "목차 검사 (코드)",
+    "desc": "코디네이터 목차가 코드 검사에 걸려 다시 짠 횟수",
+    "value": 0
+   },
+   {
+    "key": "submit_rejections",
+    "label": "제출 거절",
+    "kind": "signal",
+    "device": "원고 검사 (코드)",
+    "desc": "인용 없음·안 읽은 문서 인용 등으로 코드가 제출을 돌려보낸 횟수",
+    "value": 0
+   },
+   {
+    "key": "gate_rejections",
+    "label": "예산 관문 반려",
+    "kind": "signal",
+    "device": "제출 관문 (코드)",
+    "desc": "예산을 덜 쓰고 제출·종료하려다 코드가 돌려보낸 횟수",
+    "value": 1
+   },
+   {
+    "key": "unread_citations",
+    "label": "안 읽은 문서 인용",
+    "kind": "alarm",
+    "device": "원고 규칙 (리서처)",
+    "desc": "쓴 에이전트가 읽지 않은 문서를 인용한 수",
+    "value": 0
+   },
+   {
+    "key": "unknown_ids",
+    "label": "없는 문서 ID",
+    "kind": "alarm",
+    "device": "목차 검사 · 원고 검사",
+    "desc": "최종 목차·보고서에 자료에 없는 문서 ID가 남은 수",
+    "value": 0
+   },
+   {
+    "key": "budget_overrun",
+    "label": "예산 초과",
+    "kind": "alarm",
+    "device": "예산 장치",
+    "desc": "배정 예산보다 많이 읽은 횟수",
+    "value": 0
+   },
+   {
+    "key": "lost_citations",
+    "label": "종합 중 잃은 인용",
+    "kind": "alarm",
+    "device": "종합 (코디네이터)",
+    "desc": "절 원고에 있던 인용 문서가 최종본에서 사라진 수",
+    "value": 0
+   },
+   {
+    "key": "synthesis_new_citations",
+    "label": "종합이 만든 새 인용",
+    "kind": "alarm",
+    "device": "종합 (코디네이터)",
+    "desc": "맺음말이 어느 절 원고에도 없던 문서를 인용한 수",
+    "value": 0
+   },
+   {
+    "key": "empty_sections",
+    "label": "빈 절",
+    "kind": "alarm",
+    "device": "리서처 · 점검",
+    "desc": "인용이 하나도 없거나 제출에 실패한 절 수",
+    "value": 0
+   },
+   {
+    "key": "control_underuse",
+    "label": "대조군 예산 미소진",
+    "kind": "alarm",
+    "device": "비교 공정성",
+    "desc": "대조군이 예산의 90% 미만을 쓰고 멈췄으면 1 (상대를 묶어 둔 비교)",
+    "value": null
+   }
+  ],
+  "values": {
+   "budget_use": 0.7,
+   "unique_docs_read": 17,
+   "link_hop_share": 0.111,
+   "read_overlap": 0.011,
+   "cited_docs": 16,
+   "cite_density": 9.69,
+   "read_uncited_share": 0.059,
+   "year_grounding": 1.0,
+   "coordinator_seen_ratio": 0.0489,
+   "max_agent_seen_ratio": 0.0332,
+   "insufficient_first": 1,
+   "resolved_after_recheck": 0,
+   "plan_retries": 0,
+   "submit_rejections": 0,
+   "gate_rejections": 1,
+   "unread_citations": 0,
+   "unknown_ids": 0,
+   "budget_overrun": 0,
+   "lost_citations": 0,
+   "synthesis_new_citations": 0,
+   "empty_sections": 0,
+   "control_underuse": null
+  },
+  "raw": {
+   "reads_used": 28,
+   "total_budget": 40,
+   "corpus_chars": 2065408,
+   "coordinator_seen_chars": 101047,
+   "agent_seen_chars": {
+    "리서처 S1": 58597,
+    "리서처 S2": 68619,
+    "리서처 S3": 41378,
+    "리서처 S4": 35247,
+    "리서처 S5": 27038,
+    "리서처 S6": 14303
+   },
+   "years_checked": 33,
+   "years_found": 33
+  },
+  "alarms_fired": []
+ }
+}

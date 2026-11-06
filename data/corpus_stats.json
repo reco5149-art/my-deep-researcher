@@ -1,0 +1,119 @@
+{
+ "doc_count": 338,
+ "total_chars": 2065408,
+ "total_tokens": 459674,
+ "token_method": "tiktoken(o200k_base) (corpus.json 기록값)",
+ "model": "gpt-5-mini",
+ "context_window": 400000,
+ "ratio_to_context": 1.15,
+ "exceeds_context": true,
+ "link_edges": 2090,
+ "avg_out_links": 6.2,
+ "docs_without_out_links": 62,
+ "docs_without_in_links": 195,
+ "largest_component": 277,
+ "top_in_links": [
+  [
+   "crossfit",
+   "CrossFit",
+   177
+  ],
+  [
+   "crossfit_games",
+   "CrossFit Games",
+   80
+  ],
+  [
+   "2019_crossfit_games",
+   "2019 CrossFit Games",
+   49
+  ],
+  [
+   "2020_crossfit_games",
+   "2020 CrossFit Games",
+   46
+  ],
+  [
+   "2018_crossfit_games",
+   "2018 CrossFit Games",
+   45
+  ],
+  [
+   "2021_crossfit_games",
+   "2021 CrossFit Games",
+   44
+  ],
+  [
+   "2024_crossfit_games",
+   "2024 CrossFit Games",
+   43
+  ],
+  [
+   "tia_clair_toomey",
+   "Tia-Clair Toomey",
+   43
+  ],
+  [
+   "2022_crossfit_games",
+   "2022 CrossFit Games",
+   43
+  ],
+  [
+   "2023_crossfit_games",
+   "2023 CrossFit Games",
+   43
+  ]
+ ],
+ "largest_docs": [
+  [
+   "reebok",
+   "Reebok",
+   43630
+  ],
+  [
+   "artistic_gymnastics",
+   "Artistic gymnastics",
+   42666
+  ],
+  [
+   "strength_training",
+   "Strength training",
+   39448
+  ],
+  [
+   "powerlifting",
+   "Powerlifting",
+   38324
+  ],
+  [
+   "coquitlam",
+   "Coquitlam",
+   35148
+  ],
+  [
+   "reactions_to_the_george_floyd_protests",
+   "Reactions to the George Floyd protests",
+   33437
+  ],
+  [
+   "northern_california",
+   "Northern California",
+   31600
+  ],
+  [
+   "crossfit",
+   "CrossFit",
+   29712
+  ],
+  [
+   "physical_fitness",
+   "Physical fitness",
+   29539
+  ],
+  [
+   "crossfit_games",
+   "CrossFit Games",
+   29053
+  ]
+ ]
+}

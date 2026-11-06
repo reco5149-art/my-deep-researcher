@@ -1,0 +1,42 @@
+{
+  "domain": "크로스핏의 역사와 생태계",
+  "model": {
+    "name": "gpt-5-mini",
+    "context_window": 400000,
+    "reasoning_effort": "low"
+  },
+  "sections": {
+    "min": 1,
+    "max": 6
+  },
+  "budget": {
+    "total_reads": 40,
+    "recheck_reserve": 6,
+    "min_per_section": 2,
+    "page_chars": 12000
+  },
+  "recheck": {
+    "max_rounds": 2,
+    "reads_per_section": 3
+  },
+  "gates": {
+    "researcher_min_use": 0.6,
+    "researcher_max_rejections": 2,
+    "single_min_use": 0.9,
+    "single_max_rejections": 6
+  },
+  "roles": [
+    {"name": "기원·방법론", "focus": "창립자, 초기 체육관, 피트니스의 정의, 영양 철학, 방법론의 뿌리(HIIT·체조·역도)"},
+    {"name": "확산·비즈니스", "focus": "제휴(어필리에이트) 모델, 박스 수, 자격증, 해외 확산, 후원사, 소유권 변화"},
+    {"name": "대회·선수", "focus": "크로스핏 게임즈, 오픈, 예선·출전 방식, 연도별 대회, 챔피언"},
+    {"name": "안전·논쟁", "focus": "부상과 횡문근융해증, 연구 근거, 소송, 사회적 논란과 위기"},
+    {"name": "인접 종목·시장", "focus": "하이록스, F45, 오렌지띠어리 등 그룹 피트니스와의 비교"},
+    {"name": "인물 추적", "focus": "한 선수·인물을 시기별 문서로 따라가 경력을 재구성"},
+    {"name": "단일 사실 확인", "focus": "문서 한두 건으로 답이 나오는 질문(나누지 않는 경우)"}
+  ],
+  "corpus": {
+    "source": "English Wikipedia (CC BY-SA 4.0)",
+    "mention_term": "CrossFit",
+    "target_ratio": 1.2
+  }
+}

@@ -1,0 +1,5 @@
+openai>=1.40
+langgraph>=0.2
+streamlit>=1.36
+tiktoken>=0.7
+pandas>=2.0

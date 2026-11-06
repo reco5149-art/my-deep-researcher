@@ -1,0 +1,95 @@
+# 영문 위키백과 문서 제목 (한 줄에 하나). 없는 문서는 자동으로 건너뛴다.
+# --- 크로스핏 본체 ---
+CrossFit
+Greg Glassman
+CrossFit Games
+# --- 연도별 크로스핏 게임즈 (한 대상을 해마다 따라가는 질문용) ---
+2007 CrossFit Games
+2008 CrossFit Games
+2009 CrossFit Games
+2010 CrossFit Games
+2011 CrossFit Games
+2012 CrossFit Games
+2013 CrossFit Games
+2014 CrossFit Games
+2015 CrossFit Games
+2016 CrossFit Games
+2017 CrossFit Games
+2018 CrossFit Games
+2019 CrossFit Games
+2020 CrossFit Games
+2021 CrossFit Games
+2022 CrossFit Games
+2023 CrossFit Games
+2024 CrossFit Games
+2025 CrossFit Games
+2026 CrossFit Games
+# --- 선수 ---
+Rich Froning Jr.
+Mat Fraser (athlete)
+Tia-Clair Toomey
+Annie Thorisdottir
+Katrín Davíðsdóttir
+Sara Sigmundsdóttir
+Camille Leblanc-Bazinet
+Jason Khalipa
+Justin Medeiros
+Jeffrey Adler
+Laura Horváth
+Brooke Wells
+Kara Saunders
+Samantha Briggs
+Patrick Vellner
+Björgvin Karl Guðmundsson
+Noah Ohlsen
+Lazar Đukić
+Weightlifting at the 2016 Summer Olympics – Women's 58 kg
+# --- 인접 종목·경쟁 업체 ---
+Hyrox
+F45 Training
+Orangetheory Fitness
+Les Mills International
+Spartan Race
+Obstacle racing
+Tough Mudder
+# --- 회사·후원·투자 ---
+Reebok
+Nobull
+Rogue Fitness
+Concept2
+Berkshire Partners
+Summit Partners
+# --- 단체·논쟁 ---
+National Strength and Conditioning Association
+American College of Sports Medicine
+Rhabdomyolysis
+Jillian Michaels
+# --- 운동 방법론의 뿌리 ---
+High-intensity interval training
+Circuit training
+Functional training
+Interval training
+Strength training
+Physical fitness
+Olympic weightlifting
+Powerlifting
+Artistic gymnastics
+Calisthenics
+Kettlebell
+Burpee (exercise)
+Muscle-up
+Pull-up (exercise)
+Thruster (exercise)
+Indoor rower
+Decathlon
+Mark Allen (triathlete)
+Mark Rippetoe
+Kelly Starrett
+# --- 영양 ---
+Paleolithic diet
+Zone diet
+Barry Sears
+Robb Wolf
+Loren Cordain
+# --- 머프 ---
+Michael P. Murphy
